@@ -1,5 +1,5 @@
 export interface SocialIcon {
   name: string;
-  icon?: any; 
+  icon?: unknown; 
   href: string;
 }
