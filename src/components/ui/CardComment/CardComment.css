@@ -1,0 +1,68 @@
+.card-comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    position: relative;
+}
+.card-title-comment{
+    position: absolute;
+    top: 50px;
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 2em;   
+}
+.card-people{
+    font-size: 0.8em;
+    font-family: var(--font-oswald);
+    color: var(--border-color);
+}
+.card-content-comment{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.card-content-comment > p{
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5;
+    color: var(--primary-color);
+    font-family: var(--font-dancing);
+}
+
+.card-footer-comment{
+    margin-right: 5em;
+    width: 60%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+}
+.footer-comment-logo-contain{
+    width: 80px;
+    height: 80px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
