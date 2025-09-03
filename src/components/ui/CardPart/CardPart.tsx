@@ -8,7 +8,11 @@ const CardPart = ({title, img, price} : cardPartsProps) => {
   return (
     <div className='card-part-container'>
         <div className="image-card-part">
-            <Image src={img} alt={title} width={200} height={200} />
+            {img ? (
+                <Image src={img} alt={title} width={200} height={200} />
+            ) : (
+                <div style={{ width: 200, height: 200, background: '#eee' }} />
+            )}
         </div>
         <div className="card-content-part">
         <h1 className='title'>{title}</h1>
