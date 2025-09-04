@@ -41,7 +41,7 @@ npm run dev
 
 ### 4️⃣ Levantar JSON Server para la API fake
 ### 📦 Parts API
-Si tus datos están dentro de la carpeta `data/`:
+datos están dentro de la carpeta `data/`:
 ```bash
 cd src
 npm json-server --watch data/parts.json --port 3001
