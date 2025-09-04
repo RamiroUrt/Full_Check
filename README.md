@@ -62,7 +62,7 @@ La API quedará disponible en:
 ```bash
 FULL_CHECK_PROJECT/
 │── public/
-│   ├── svg/           # Recursos públicos 
+│   ├── svg/           
 │   └── favicon.ico
 │
 │── src/
