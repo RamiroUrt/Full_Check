@@ -1,4 +1,4 @@
-# ⚙ Full Check - Proyecto en Construcción
+# ⚙ Full Check
 
 ![Portada](./public/favicon.ico)
 
