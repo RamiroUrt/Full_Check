@@ -13,11 +13,13 @@ import { heroHomeProps } from "@/constants/heroProps";
 
 const page = () => {
   return <>
-    <Navbar />
-    <Hero
-      CoverHero={heroHomeProps.CoverHero}
-      CarAngle={heroHomeProps.CarAngle}
-      ColorAngle={heroHomeProps.ColorAngle} />
+      <main className="relative w-full h-auto z-[--100]">
+        <Navbar />
+        <Hero
+          CoverHero={heroHomeProps.CoverHero}
+          CarAngle={heroHomeProps.CarAngle}
+          ColorAngle={heroHomeProps.ColorAngle} />
+      </main>
     <Slider />
     <Example />
     <Services />

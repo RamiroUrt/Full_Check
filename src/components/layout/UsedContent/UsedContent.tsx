@@ -42,7 +42,7 @@ const UsedContent = () => {
   };
 
   return (
-    <section className="section-used-content">
+    <section className="section-used-content dot-group-used">
       <h1 className="title used-title">Autos usados</h1>
       <div className="used-container">
         {currentItems.map((auto) => (

@@ -11,17 +11,21 @@ export const optionsList: OptionsTypes[] = [
   {
     title: "Todo",
     image: Allicon,
+    id: "all"
   },
   {
     title: "Autos",
     image: CarIcon,
+    id: "car"
   },
   {
     title: "Camionetas",
     image: VanIcon,
+    id: "van"
   },
     {
     title: "Camiones",
     image: TruckIcon,
+    id: "truck"
   },
 ];

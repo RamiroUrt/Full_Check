@@ -34,7 +34,7 @@ const BranchSection = () => {
   }, []);
 
   return (
-    <section className="branch-section-container">
+    <section className="branch-section-container dot-group-branches">
       <h1 className="title branch-title">Todas Nuestras Sucursales</h1>
       <div className="branch-map-container-box">
         <div className="branch-angle-box">

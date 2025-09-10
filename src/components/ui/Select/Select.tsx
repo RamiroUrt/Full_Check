@@ -5,19 +5,23 @@ import { useState } from 'react';
 import { optionsList } from '../../../constants/optionsList'; 
 import './Select.css';
 
-const Select = () => {
-  const [selected, setSelected] = useState<number | null>(0);
+const Select = ({ onChange }: { onChange?: (id: string) => void }) => {
+  const [selected, setSelected] = useState<string>("all"); // 👈 ahora guarda un string
 
   return (
     <div className="select-wrapper">
       <div className="select-wrapper-icon">
-        {optionsList.map((option, index) => (
+        {optionsList.map((option) => (
           <Options
-            key={index}
+            key={option.id}
             title={option.title}
             image={option.image}
-            selected={selected === index}
-            onClick={() => setSelected(index)}
+            selected={selected === option.id}
+            onClick={() => {
+              setSelected(option.id);
+              onChange?.(option.id); 
+            }}
+            id={option.id}
           />
         ))}
       </div>

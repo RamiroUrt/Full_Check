@@ -1,8 +1,35 @@
+'use client'
 import Image from "next/image";
 
 import type { AngleBoxProps } from "@/types/AngleBox.Types";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+
+AOS.init({
+  disable: false, 
+  startEvent: 'DOMContentLoaded', 
+  initClassName: 'aos-init', 
+  animatedClassName: 'aos-animate', 
+  useClassNames: false, 
+  disableMutationObserver: false, 
+  debounceDelay: 50, 
+  throttleDelay: 99,
+  
+
+  offset: 120, 
+  delay: 0, 
+  duration: 400, 
+  easing: 'ease',
+  once: false,
+  mirror: true,
+  anchorPlacement: 'top-bottom',
+
+
+});
+
+  AOS.refresh();
 
 const AngleBox: React.FC<AngleBoxProps> = ({ color, image }) => {
   return (
@@ -13,6 +40,8 @@ const AngleBox: React.FC<AngleBoxProps> = ({ color, image }) => {
       <div className="icon ">
         {image && (
           <Image
+          data-aos="fade-left"
+            data-aos-easing="ease-in-out"
             src={image}
             alt="Icono de ángulo"
             className="icon overlay-content-hero"

@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import DotGroup from '@/components/ui/DotGroup';
 import CardsExample from '../../ui/CardExample/CardExample';
-
+import { CardExampleConstant } from '../../../constants/CardExampleConstant';
 const Example = () => {
   const containerRef = useRef<HTMLDivElement | null>(null);
 
@@ -42,11 +42,14 @@ const Example = () => {
             ref={containerRef}
             className="section-container-cards-example"
           >
-            <CardsExample />
-            <CardsExample />
-            <CardsExample />
-            <CardsExample />
-            <CardsExample />
+            {CardExampleConstant.map((card, index) => (
+              <CardsExample
+                key={index}
+                service={card.service}
+                description={card.description}
+                ico={card.ico}
+                />
+            ))}
           </section>
         </div>
       </div>

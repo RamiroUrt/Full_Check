@@ -25,7 +25,7 @@ const CardServices = () => {
             </div>
         </div>
             <div className="card-footer">
-            <button className='button'><span className='button-text title'>VER MÁS</span></button>
+            <button className='button'><span className='button-text title'>CONTACTO</span></button>
             </div>
     </main>
   )

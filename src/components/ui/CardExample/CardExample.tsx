@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import './CardExample.css';
 import Logo from '../../../assets/img/LogoCom.png';
+import { CardExampleProps } from '@/types/CardExample.Types';
 
-const CardExample = () => {
+const CardExample: React.FC<CardExampleProps> = ({ ico, service, description }) => {
   return (
     <main className="card-container">
         <section className='card-example-content'>
@@ -10,17 +11,16 @@ const CardExample = () => {
                 <div className="svg-example">
                   <Image
                     loading="lazy"
-                    src="/svg/break-svgrepo-com.svg"
+                    src={ico}
                     alt="Icono"
                     width={80}
                     height={80}
                   />
                 </div>
-                <h1 className="title card-title">SEVICIO</h1>
+                <h1 className="title card-title">{service}</h1>
                 <div className="card-description">
                     <p className='text-secondary'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                       {description}
                     </p>
                 </div>
             </div>

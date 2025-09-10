@@ -16,11 +16,13 @@ export const metadata = pagesMetadata.used;
 const Used = () => {
   return (
     <>
+      <main className="relative w-[--100vh] h-auto z-[--100] overflow-hidden">
         <Navbar />
         <Hero 
         CoverHero={heroUsedProps.CoverHero}
         CarAngle={heroUsedProps.CarAngle}
         ColorAngle={heroUsedProps.ColorAngle} />
+      </main>
         <Slider />
         <Search
         placeholder="Busca tu auto favorito por nombre o marca"

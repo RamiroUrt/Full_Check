@@ -5,4 +5,5 @@ export interface OptionsTypes {
   image: StaticImageData;
   selected?: boolean;
   onClick?: () => void;
+  id: string;
 }

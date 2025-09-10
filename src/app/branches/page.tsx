@@ -12,12 +12,15 @@ export const metadata = pagesMetadata.branches;
 const page = () => {
   return (
     <>
+          <main className="relative w-[--100vh] h-auto z-[--100] overflow-hidden">
             <Navbar />
             <Hero 
             CoverHero={heroBranchProps.CoverHero}
             CarAngle={heroBranchProps.CarAngle}
             ColorAngle={heroBranchProps.ColorAngle} />
+            </main>
             <Slider />
+
             <BranchSection />
             <Footer />
     </>

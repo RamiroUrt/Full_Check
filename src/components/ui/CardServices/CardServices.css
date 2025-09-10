@@ -120,6 +120,7 @@
   text-transform: uppercase;
   display: inline-block;
   color: #fff;
+  letter-spacing: 2px;
 }
 .button-text:hover {
   color: var(--primary-color-hover);

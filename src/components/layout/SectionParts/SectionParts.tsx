@@ -1,39 +1,47 @@
-'use client'
+'use client';
 import '../../../global/pagination.css';
 import CardPart from '@/components/ui/CardPart/CardPart';
 import React, { useEffect, useState } from 'react';
-
 import { Part } from '@/types/Parts.Types';
-
 import ReactPaginate from 'react-paginate';
+
 const itemsPerPage = 30;
 
-const SectionParts = () => {
+interface Props {
+  filter: string; // 👈 recibimos el filtro
+}
+
+const SectionParts = ({ filter }: Props) => {
   const [parts, setParts] = useState<Part[]>([]);
   const [itemOffset, setItemOffset] = useState(0);
 
-useEffect(() => {
-  const url = 'http://localhost:3001/parts';
-  fetch(url)
-    .then(res => res.json())
-.then(data => {
+  useEffect(() => {
+    const url = 'http://localhost:3001/parts';
+    fetch(url)
+      .then(res => res.json())
+      .then(data => {
         const values: Part[] = Object.values(data);
         setParts(values);
       })
-    .catch(err => console.error('Error en fetch:', err));
-}, []);
+      .catch(err => console.error('Error en fetch:', err));
+  }, []);
 
-const endOffset = itemOffset + itemsPerPage;
-  const currentItems = parts.slice(itemOffset, endOffset);
-  const pageCount = Math.ceil(parts.length / itemsPerPage);
+  // Filtramos según el id seleccionado
+  const filteredParts = filter === "all"
+    ? parts
+    : parts.filter(part => part.car.includes(filter));
+
+  const endOffset = itemOffset + itemsPerPage;
+  const currentItems = filteredParts.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(filteredParts.length / itemsPerPage);
 
   const handlePageClick = (event: { selected: number }) => {
-    const newOffset = (event.selected * itemsPerPage) % parts.length;
+    const newOffset = (event.selected * itemsPerPage) % filteredParts.length;
     setItemOffset(newOffset);
   };
 
   return (
-    <section className='section-parts-container'>
+    <section className='section-parts-container dot-group-parts'>
       <div className="cards-container-parts">
         {currentItems.map((part) => (
           <CardPart
@@ -45,7 +53,7 @@ const endOffset = itemOffset + itemsPerPage;
           />
         ))}
       </div>
-       <ReactPaginate
+      <ReactPaginate
         breakLabel=".."
         nextLabel="Siguiente >"
         previousLabel="< Anterior"
