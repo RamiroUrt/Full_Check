@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-levantar la bd de los usados 
-=======
+
 # ⚙ Full Check
 
 ![Portada](./public/favicon.ico)
@@ -95,5 +93,3 @@ FULL_CHECK_PROJECT/
 🔧 **En construcción**  
 Próximamente: integración de pedidos, gestión de usuarios y chat con IA.
 
----
->>>>>>> 63dbde7e3d9404f0a2c51eb4d1d6c7b61cc8d8cb
