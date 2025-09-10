@@ -1,0 +1,1624 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "title": "Bujía",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 2203
+    },
+    {
+      "id": 2,
+      "title": "Filtro de aceite",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 7198
+    },
+    {
+      "id": 3,
+      "title": "Amortiguador",
+      "car": [
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 14806
+    },
+    {
+      "id": 4,
+      "title": "Pastillas de freno",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 14724
+    },
+    {
+      "id": 5,
+      "title": "Batería 12V",
+      "car": [
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 10211
+    },
+    {
+      "id": 6,
+      "title": "Correa de distribución",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 18211
+    },
+    {
+      "id": 7,
+      "title": "Filtro de aire",
+      "car": [
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 7921
+    },
+    {
+      "id": 8,
+      "title": "Espejo retrovisor",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 4245
+    },
+    {
+      "id": 9,
+      "title": "Radiador",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 17080
+    },
+    {
+      "id": 10,
+      "title": "Sensor de oxígeno",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 2869
+    },
+    {
+      "id": 11,
+      "title": "Alternador",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 18249
+    },
+    {
+      "id": 12,
+      "title": "Caja de cambios",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 17230
+    },
+    {
+      "id": 13,
+      "title": "Bomba de agua",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 11917
+    },
+    {
+      "id": 14,
+      "title": "Radiador de calefacción",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 3144
+    },
+    {
+      "id": 15,
+      "title": "Volante",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 12781
+    },
+    {
+      "id": 16,
+      "title": "Bomba de combustible",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 13239
+    },
+    {
+      "id": 17,
+      "title": "Termostato",
+      "car": [
+        "van",
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 16799
+    },
+    {
+      "id": 18,
+      "title": "Filtro de combustible",
+      "car": [
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 16562
+    },
+    {
+      "id": 19,
+      "title": "Amortiguador trasero",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 12681
+    },
+    {
+      "id": 20,
+      "title": "Tapa de válvulas",
+      "car": [
+        "truck",
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 8849
+    },
+    {
+      "id": 21,
+      "title": "Embrague",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 7436
+    },
+    {
+      "id": 22,
+      "title": "Catalizador",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 15502
+    },
+    {
+      "id": 23,
+      "title": "Tubo de escape",
+      "car": [
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 6001
+    },
+    {
+      "id": 24,
+      "title": "Faros delanteros",
+      "car": [
+        "car",
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 5885
+    },
+    {
+      "id": 25,
+      "title": "Luces traseras",
+      "car": [
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 15509
+    },
+    {
+      "id": 26,
+      "title": "Parachoques",
+      "car": [
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 8786
+    },
+    {
+      "id": 27,
+      "title": "Palanca de cambios",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 11044
+    },
+    {
+      "id": 28,
+      "title": "Cinturón de seguridad",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 19534
+    },
+    {
+      "id": 29,
+      "title": "Sensor de velocidad",
+      "car": [
+        "van",
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 2662
+    },
+    {
+      "id": 30,
+      "title": "Filtro de habitáculo",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 19757
+    },
+    {
+      "id": 31,
+      "title": "Manguera de radiador",
+      "car": [
+        "truck",
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 12398
+    },
+    {
+      "id": 32,
+      "title": "Bujía de encendido",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 19305
+    },
+    {
+      "id": 33,
+      "title": "Sensor de temperatura",
+      "car": [
+        "car",
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 12751
+    },
+    {
+      "id": 34,
+      "title": "Motor eléctrico",
+      "car": [
+        "truck",
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 9672
+    },
+    {
+      "id": 35,
+      "title": "Capó",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 18728
+    },
+    {
+      "id": 36,
+      "title": "Puerta",
+      "car": [
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 6795
+    },
+    {
+      "id": 37,
+      "title": "Parabrisas",
+      "car": [
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 7771
+    },
+    {
+      "id": 38,
+      "title": "Asiento del conductor",
+      "car": [
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 4267
+    },
+    {
+      "id": 39,
+      "title": "Asiento trasero",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 17457
+    },
+    {
+      "id": 40,
+      "title": "Espejo lateral",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 5287
+    },
+    {
+      "id": 41,
+      "title": "Tapizado",
+      "car": [
+        "truck",
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 1689
+    },
+    {
+      "id": 42,
+      "title": "Radiador de aceite",
+      "car": [
+        "truck",
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 17663
+    },
+    {
+      "id": 43,
+      "title": "Filtro hidráulico",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 13773
+    },
+    {
+      "id": 44,
+      "title": "Bomba de freno",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 13861
+    },
+    {
+      "id": 45,
+      "title": "Filtro de aire acondicionado",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 16544
+    },
+    {
+      "id": 46,
+      "title": "Filtro de transmisión",
+      "car": [
+        "truck",
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 19873
+    },
+    {
+      "id": 47,
+      "title": "Polea del cigüeñal",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 13298
+    },
+    {
+      "id": 48,
+      "title": "Correa de alternador",
+      "car": [
+        "truck",
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 13745
+    },
+    {
+      "id": 49,
+      "title": "Colector de admisión",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 11487
+    },
+    {
+      "id": 50,
+      "title": "Filtro de polvo",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 2913
+    },
+    {
+      "id": 51,
+      "title": "Eje de transmisión",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 17629
+    },
+    {
+      "id": 52,
+      "title": "Palier",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 15087
+    },
+    {
+      "id": 53,
+      "title": "Amortiguador delantero",
+      "car": [
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 4734
+    },
+    {
+      "id": 54,
+      "title": "Bomba de dirección",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 18626
+    },
+    {
+      "id": 55,
+      "title": "Caja de fusibles",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 3117
+    },
+    {
+      "id": 56,
+      "title": "Cierre centralizado",
+      "car": [
+        "truck",
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 14910
+    },
+    {
+      "id": 57,
+      "title": "Manija de puerta",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 13170
+    },
+    {
+      "id": 58,
+      "title": "Sensor de presión",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 6590
+    },
+    {
+      "id": 59,
+      "title": "Filtro de gasolina",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 2907
+    },
+    {
+      "id": 60,
+      "title": "Bomba de agua eléctrica",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 19622
+    },
+    {
+      "id": 61,
+      "title": "Tapa del radiador",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 15740
+    },
+    {
+      "id": 62,
+      "title": "Guía de puerta",
+      "car": [
+        "car",
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 6769
+    },
+    {
+      "id": 63,
+      "title": "Tapa de motor",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 5717
+    },
+    {
+      "id": 64,
+      "title": "Ventilador",
+      "car": [
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 8500
+    },
+    {
+      "id": 65,
+      "title": "Cámara trasera",
+      "car": [
+        "truck",
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 15468
+    },
+    {
+      "id": 66,
+      "title": "Sensor de lluvia",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 4106
+    },
+    {
+      "id": 67,
+      "title": "Limpiaparabrisas",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 8331
+    },
+    {
+      "id": 68,
+      "title": "Motor de arranque",
+      "car": [
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 17280
+    },
+    {
+      "id": 69,
+      "title": "Panel de instrumentos",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 6540
+    },
+    {
+      "id": 70,
+      "title": "Tapón de combustible",
+      "car": [
+        "car",
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 5000
+    },
+    {
+      "id": 71,
+      "title": "Reloj",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 2896
+    },
+    {
+      "id": 72,
+      "title": "Sensor de freno",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 17754
+    },
+    {
+      "id": 73,
+      "title": "Soporte de motor",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 14645
+    },
+    {
+      "id": 74,
+      "title": "Batería auxiliar",
+      "car": [
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 17968
+    },
+    {
+      "id": 75,
+      "title": "Filtro de aire deportivo",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 10088
+    },
+    {
+      "id": 76,
+      "title": "Escape deportivo",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 10317
+    },
+    {
+      "id": 77,
+      "title": "Volante deportivo",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 2054
+    },
+    {
+      "id": 78,
+      "title": "Bujía de iridio",
+      "car": [
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 1562
+    },
+    {
+      "id": 79,
+      "title": "Faro antiniebla",
+      "car": [
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 19024
+    },
+    {
+      "id": 80,
+      "title": "Capó de fibra",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 17592
+    },
+    {
+      "id": 81,
+      "title": "Soporte motor trasero",
+      "car": [
+        "van",
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 11248
+    },
+    {
+      "id": 82,
+      "title": "Juego de bujes de suspensión",
+      "car": [
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 18896
+    },
+    {
+      "id": 83,
+      "title": "Kit de embrague completo",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 19345
+    },
+    {
+      "id": 84,
+      "title": "Módulo de control electrónico",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 18150
+    },
+    {
+      "id": 85,
+      "title": "Sensor de presión del turbo",
+      "car": [
+        "car",
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 13119
+    },
+    {
+      "id": 86,
+      "title": "Conjunto de balancines",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 15430
+    },
+    {
+      "id": 87,
+      "title": "Bobina de encendido",
+      "car": [
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 17930
+    },
+    {
+      "id": 88,
+      "title": "Bomba de vacío",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 13858
+    },
+    {
+      "id": 89,
+      "title": "Sensor MAP (Manifold Absolute Pressure)",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 13796
+    },
+    {
+      "id": 90,
+      "title": "Válvula EGR (Recirculación de gases)",
+      "car": [
+        "car",
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 6197
+    },
+    {
+      "id": 91,
+      "title": "Correa de accesorios",
+      "car": [
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 16737
+    },
+    {
+      "id": 92,
+      "title": "Juego de juntas de motor",
+      "car": [
+        "truck",
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 7564
+    },
+    {
+      "id": 93,
+      "title": "Sensor de detonación",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 19397
+    },
+    {
+      "id": 94,
+      "title": "Radiador intercooler",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 19402
+    },
+    {
+      "id": 95,
+      "title": "Cilindro maestro de freno",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 8345
+    },
+    {
+      "id": 96,
+      "title": "Tapa de balancines",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 11527
+    },
+    {
+      "id": 97,
+      "title": "Filtro de transmisión manual",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 5984
+    },
+    {
+      "id": 98,
+      "title": "Soporte de caja de cambios",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 6665
+    },
+    {
+      "id": 99,
+      "title": "Cojinete de rueda delantero",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 8942
+    },
+    {
+      "id": 100,
+      "title": "Manguera de vacío",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 3681
+    },
+    {
+      "id": 101,
+      "title": "Varilla de nivel de aceite",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 5370
+    },
+    {
+      "id": 102,
+      "title": "Resorte de válvula",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 14641
+    },
+    {
+      "id": 103,
+      "title": "Junta del múltiple de escape",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 16665
+    },
+    {
+      "id": 104,
+      "title": "Terminal de dirección",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 7529
+    },
+    {
+      "id": 105,
+      "title": "Retén de cigüeñal",
+      "car": [
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 5780
+    },
+    {
+      "id": 106,
+      "title": "Sonda lambda",
+      "car": [
+        "van",
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 17603
+    },
+    {
+      "id": 107,
+      "title": "Silenciador de escape",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 9431
+    },
+    {
+      "id": 108,
+      "title": "Bomba de refrigerante",
+      "car": [
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 11135
+    },
+    {
+      "id": 109,
+      "title": "Tensor de correa",
+      "car": [
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 2421
+    },
+    {
+      "id": 110,
+      "title": "Buje de barra estabilizadora",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 16215
+    },
+    {
+      "id": 111,
+      "title": "Anillo de pistón",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 2282
+    },
+    {
+      "id": 112,
+      "title": "Válvula de purga",
+      "car": [
+        "truck",
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 7915
+    },
+    {
+      "id": 113,
+      "title": "Rodamiento de rueda",
+      "car": [
+        "truck",
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 14477
+    },
+    {
+      "id": 114,
+      "title": "Junta de culata",
+      "car": [
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 6265
+    },
+    {
+      "id": 115,
+      "title": "Bomba de dirección hidráulica",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 16529
+    },
+    {
+      "id": 116,
+      "title": "Cremallera de dirección",
+      "car": [
+        "truck",
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 17199
+    },
+    {
+      "id": 117,
+      "title": "Válvula PCV",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 18897
+    },
+    {
+      "id": 118,
+      "title": "Soporte de motor",
+      "car": [
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 7582
+    },
+    {
+      "id": 119,
+      "title": "Termocontacto",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 5920
+    },
+    {
+      "id": 120,
+      "title": "Regulador de presión de combustible",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 18006
+    },
+    {
+      "id": 121,
+      "title": "Rótula de dirección",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 16369
+    },
+    {
+      "id": 122,
+      "title": "Bomba de inyección",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 13718
+    },
+    {
+      "id": 123,
+      "title": "Sensor de posición del árbol de levas",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 9878
+    },
+    {
+      "id": 124,
+      "title": "Válvula IAC",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 13329
+    },
+    {
+      "id": 125,
+      "title": "Bomba de vacío del freno",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 19724
+    },
+    {
+      "id": 126,
+      "title": "Junta del colector de admisión",
+      "car": [
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 1086
+    },
+    {
+      "id": 127,
+      "title": "Sensor de temperatura del aire",
+      "car": [
+        "truck",
+        "van",
+        "car"
+      ],
+      "img": "",
+      "price": 8801
+    },
+    {
+      "id": 128,
+      "title": "Válvula solenoide",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 7334
+    },
+    {
+      "id": 129,
+      "title": "Retén de eje",
+      "car": [
+        "truck",
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 9865
+    },
+    {
+      "id": 130,
+      "title": "Bomba de limpiaparabrisas",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 19548
+    },
+    {
+      "id": 131,
+      "title": "Sensor de posición del acelerador",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 16394
+    },
+    {
+      "id": 132,
+      "title": "Válvula de control de aire",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 11997
+    },
+    {
+      "id": 133,
+      "title": "Módulo de control de tracción",
+      "car": [
+        "van",
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 19804
+    },
+    {
+      "id": 134,
+      "title": "Terminal de batería",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 2705
+    },
+    {
+      "id": 135,
+      "title": "Sensor de nivel de combustible",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 4321
+    },
+    {
+      "id": 136,
+      "title": "Buje de suspensión",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 5243
+    },
+    {
+      "id": 137,
+      "title": "Válvula de descarga",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 17542
+    },
+    {
+      "id": 138,
+      "title": "Sensor de fase",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 9541
+    },
+    {
+      "id": 139,
+      "title": "Válvula de mariposa",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 19083
+    },
+    {
+      "id": 140,
+      "title": "Bomba de aceite",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 19677
+    },
+    {
+      "id": 141,
+      "title": "Regulador de voltaje",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 14819
+    },
+    {
+      "id": 142,
+      "title": "Sensor de posición del pedal",
+      "car": [
+        "car",
+        "van",
+        "truck"
+      ],
+      "img": "",
+      "price": 16675
+    },
+    {
+      "id": 143,
+      "title": "Válvula de retención",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 8666
+    },
+    {
+      "id": 144,
+      "title": "Junta de turbo",
+      "car": [
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 8501
+    },
+    {
+      "id": 145,
+      "title": "Buje de barra de torsión",
+      "car": [
+        "car"
+      ],
+      "img": "",
+      "price": 1805
+    },
+    {
+      "id": 146,
+      "title": "Sensor de NOx",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 18056
+    },
+    {
+      "id": 147,
+      "title": "Válvula de expansión",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 12779
+    },
+    {
+      "id": 148,
+      "title": "Bomba de lavado",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 15057
+    },
+    {
+      "id": 149,
+      "title": "Sensor de par motor",
+      "car": [
+        "car",
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 5588
+    },
+    {
+      "id": 150,
+      "title": "Válvula de derivación",
+      "car": [
+        "van"
+      ],
+      "img": "",
+      "price": 7684
+    },
+    {
+      "id": 151,
+      "title": "Sensor de masa de aire",
+      "car": [
+        "truck"
+      ],
+      "img": "",
+      "price": 4620
+    },
+    {
+      "id": 152,
+      "title": "Junta de tapa de válvulas",
+      "car": [
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 6110
+    },
+    {
+      "id": 153,
+      "title": "Terminal de eje",
+      "car": [
+        "van",
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 10673
+    },
+    {
+      "id": 154,
+      "title": "Válvula de admisión",
+      "car": [
+        "truck",
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 16974
+    },
+    {
+      "id": 155,
+      "title": "Sensor de presión de aceite",
+      "car": [
+        "car",
+        "van"
+      ],
+      "img": "",
+      "price": 19843
+    },
+    {
+      "id": 156,
+      "title": "Bomba de transferencia",
+      "car": [
+        "van",
+        "truck",
+        "car"
+      ],
+      "img": "",
+      "price": 11404
+    },
+    {
+      "id": 157,
+      "title": "Válvula de recirculación",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 13475
+    },
+    {
+      "id": 158,
+      "title": "Sensor de posición de la palanca",
+      "car": [
+        "van",
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 4327
+    },
+    {
+      "id": 159,
+      "title": "Junta de inyector",
+      "car": [
+        "van",        
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 12345
+    },
+    {
+      "id": 160,
+      "title": "Bomba de aire",
+      "car": [
+        "truck",
+        "van"
+      ],
+      "img": "",
+      "price": 12345
+    },
+    {
+      "id": 161,
+      "title": "Válvula de escape",
+      "car": [
+        "van",
+        "car",
+        "truck"
+      ],
+      "img": "",
+      "price": 12345
+    }
+  ]
+}
