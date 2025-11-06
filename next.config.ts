@@ -1,8 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+      experimental: {
+      viewTransition: true,
+    },
   images: {
     domains: [
+      'localhost', '127.0.0.1','3001', '3002',
       "cdn.pixabay.com",
       "vw.grupodietrich.com",
       "nipponcar.com.ar",

@@ -1,7 +1,7 @@
 .card-part-container{
     display: flex;
     overflow: hidden;
-    width: 250px;
+    width: 230px;
     max-height: 300px;
     height: 300px;
     flex-direction: column;
@@ -14,7 +14,7 @@
 }
 .image-cart-parts{
     width: 95px;
-    height: 300px;
+    height: 200px;
     object-fit: cover;
 }
 .image-cart-parts > img{
@@ -28,6 +28,7 @@
 }
 .button-card button{
     background-color: var(--white-color);
+    z-index: 500;
 }
 .button-card:hover button{
     /* transform: scale(1.05); */
@@ -65,3 +66,42 @@
     margin-bottom: 2.5em;
     text-align: center;
 }
+
+
+/*BUTUN CARD PARTS*/
+
+.button-card-parts{
+    overflow: hidden;
+    margin-top: 2em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--border-color);
+    width: auto;
+    padding-right: 15px;
+    height: 33px;
+}
+.card-part-container:hover
+.button-card-parts button{
+    transform: scale(1.05);
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+.card-part-container:hover
+.button-card-parts:hover button{
+    /* transform: scale(1.05); */
+    transition: all 0.3s ease-in-out;
+    filter: brightness(0.9);
+    color: var(--primary-color);
+}
+
+
+/*********
+ * MODAL *
+ *********/
+ 

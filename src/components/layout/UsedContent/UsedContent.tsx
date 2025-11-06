@@ -15,9 +15,11 @@ const UsedContent = () => {
   useEffect(() => {
     const fetchAutos = async () => {
       try {
-        const res = await fetch('http://localhost:3002/autos');
+        const res = await fetch('/api/used', { cache: 'no-store' });
         const data = await res.json();
-        const values: CarUsed[] = Object.values(data);
+
+        const values: CarUsed[] = data.autos;
+
         setAutos(values);
       } catch (error) {
         console.error('Error al obtener autos:', error);
@@ -29,8 +31,21 @@ const UsedContent = () => {
     fetchAutos();
   }, []);
 
-  if (loading) return <p>Cargando autos usados...</p>;
-  if (!autos.length) return <p>No hay autos disponibles.</p>;
+  if (loading) {
+    return (
+      <div className="section-used-content h-[100px]">
+        <p className='title'>Cargando autos</p>
+      </div>
+    );
+  }
+
+  if (!autos.length) {
+    return (
+      <div className="section-used-content dot-group-used">
+        <p className='title'>No hay autos disponibles</p>
+      </div>
+    );
+  }
 
   const endOffset = itemOffset + itemsPerPage;
   const currentItems = autos.slice(itemOffset, endOffset);
@@ -49,6 +64,7 @@ const UsedContent = () => {
           <CardUsed key={auto.id} {...auto} />
         ))}
       </div>
+
       <ReactPaginate
         breakLabel=".."
         nextLabel="Siguiente >"

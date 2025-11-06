@@ -7,8 +7,7 @@ const Footer = () => {
     <footer>
         <section className="section2 section-footer">
           <div className="footer-section-content">
-            <p className="text-dancing text-footer ">Con más de 15 años de experiencia, nos dedicamos a cuidar tu vehículo con responsabilidad, compromiso y pasión por lo que hacemos. Nuestro equipo está formado por mecánicos especializados que te brindarán una atención clara, rápida y de calidad.
-            Podés reservar tu turno online y acercarte a cualquiera de nuestras sucursales. Estamos para ayudarte y que te vayas con total confianza.
+            <p className="text-dancing text-footer ">Con más de 15 años de experiencia, nos dedicamos a cuidar tu vehículo con responsabilidad, compromiso y pasión por lo que hacemos.<br/>
             Gracias por elegirnos...</p>
           </div>
         </section>

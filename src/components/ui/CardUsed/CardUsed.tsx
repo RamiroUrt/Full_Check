@@ -34,7 +34,7 @@ const CardUsed = ({ marca, modelo, año, precio, km, combustible, transmision, i
             </div>
           </div>
 
-          <div className="button-card flex justify-between items-center">
+          <div className="button-card-used  flex justify-between items-center">
             <button className="button btn-primary">Ver más</button>
             <p className="price text-lg font-semibold">$ {precio.toLocaleString()}</p>
           </div>

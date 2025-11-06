@@ -85,7 +85,7 @@
     color: var(--primary-color);
 }
 
-.button-card{
+.button-card-used{
     margin-top: 2em;
     position: absolute;
     bottom: 0;
@@ -102,4 +102,15 @@
     font-size: 0.8em;
     z-index: 1;
     width: 90%;
+}
+.button-card-used button{
+    background-color: var(--white-color);
+}
+
+.card-used-content:hover
+.button-card-used button{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    filter: brightness(0.9);
+    color: var(--primary-color);
 }

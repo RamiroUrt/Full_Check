@@ -30,12 +30,12 @@ const Navbar = () => {
           </li>
           <li>
             <Link href={routes.tienda}>
-              <span className="nav-btn">Tienda</span>
+              <span className="nav-btn">Autopartes</span>
             </Link>
           </li>
           <li>
             <Link href={routes.usados}>
-              <span className="nav-btn">Nuestros Usados</span>
+              <span className="nav-btn">Usados</span>
             </Link>
           </li>
           <li>
@@ -65,10 +65,10 @@ const Navbar = () => {
               <Link href={routes.home}>Inicio</Link>
             </li>
             <li onClick={toggleMenu}>
-              <Link href={routes.tienda}>Tienda</Link>
+              <Link href={routes.tienda}>Autopartes</Link>
             </li>
             <li onClick={toggleMenu}>
-              <Link href={routes.usados}>Nuestros Usados</Link>
+              <Link href={routes.usados}>Usados</Link>
             </li>
             <li onClick={toggleMenu}>
               <Link href={routes.sucursales}>Sucursales</Link>

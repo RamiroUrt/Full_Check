@@ -8,28 +8,48 @@ import ReactPaginate from 'react-paginate';
 const itemsPerPage = 30;
 
 interface Props {
-  filter: string; // 👈 recibimos el filtro
+  filter: string;
 }
 
 const SectionParts = ({ filter }: Props) => {
   const [parts, setParts] = useState<Part[]>([]);
   const [itemOffset, setItemOffset] = useState(0);
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
-    const url = 'http://localhost:3001/parts';
+    const url = '/api/parts';
     fetch(url)
       .then(res => res.json())
       .then(data => {
-        const values: Part[] = Object.values(data);
-        setParts(values);
+  // console.log("Datos del backend:", data);
+  // const values: Part[] = Object.values(data);
+  // console.log("Values después del Object.values:", values);
+setParts(data.parts);
       })
-      .catch(err => console.error('Error en fetch:', err));
+      .catch(err => console.error('Error en fetch:', err))
+      .finally(() => setLoading(false)); 
   }, []);
 
-  // Filtramos según el id seleccionado
-  const filteredParts = filter === "all"
-    ? parts
-    : parts.filter(part => part.car.includes(filter));
+  if (loading) {
+    return (
+      <div className="section-parts-container dot-group-parts">
+        <p className="title">Cargando autopartes...</p>
+      </div>
+    );
+  }
+
+  if (!parts.length) {
+    return (
+      <div className="section-parts-container dot-group-parts">
+        <p className="title">No hay autopartes disponibles</p>
+      </div>
+    );
+  }
+
+  const filteredParts =
+    filter === "all"
+      ? parts
+      : parts.filter(part => Array.isArray(part.car) && part.car.includes(filter));
 
   const endOffset = itemOffset + itemsPerPage;
   const currentItems = filteredParts.slice(itemOffset, endOffset);
@@ -41,7 +61,7 @@ const SectionParts = ({ filter }: Props) => {
   };
 
   return (
-    <section className='section-parts-container dot-group-parts'>
+    <section className="section-parts-container dot-group-parts">
       <div className="cards-container-parts">
         {currentItems.map((part) => (
           <CardPart

@@ -41,5 +41,20 @@ export const sliderImages = [
     Reno,
     VW,
     Fiat,
+    Mercedez,
+
+        //vuelta 3
+    Audi,
+    BMW,
+    Chevrolet,
+    Citroen,
+    Ford,
+    Honda,
+    Nissan,
+    Peugeot,
+    Toyota,
+    Reno,
+    VW,
+    Fiat,
     Mercedez
 ];

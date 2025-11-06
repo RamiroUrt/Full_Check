@@ -1,0 +1,44 @@
+.card-shop-car-left{
+    width: 59%;
+    height: 400px;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    z-index: 999;
+}
+.card-shop-car-left > h1{
+    z-index: 10;
+    position: absolute;
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+.card-shop-car-right > h1{
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+  
+.card-shop-car-right{
+    width: 59%;
+    height: 400px;
+    object-fit: cover;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+    overflow: hidden;
+    object-fit: cover;  
+    margin-left: auto;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, white 65%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, white 65%, transparent 99%);
+    filter: brightness(0.6);
+}
+.cover:hover{
+    transform: scale(1.05);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+    filter: brightness(1);
+}
