@@ -1,15 +1,26 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+
+// Interface para los mensajes del chat
+interface ChatMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
 export interface ChatResponse {
   message: string;
   options?: string[];
   isTerminal?: boolean;
   state?: string;
-    url?: string; // Nueva propiedad para URLs
+  url?: string; // Nueva propiedad para URLs
   metadata?: { // O usando metadata para más flexibilidad
-    url?: string;
-    phone?: string;
-    email?: string;
-    appointmentUrl?: string;
+    url?: string | URL | string[] | URL[] | undefined;
+    phone?: string | URL | string[] | URL[] | undefined;
+    email?: string | URL | string[] | URL[] | undefined;
+    appointmentUrl?: string | URL | string[] | URL[] | undefined;
+    whatsapp?: string | URL | string[] | URL[] | undefined;
+    emailGeneral?: string | URL | string[] | URL[] | undefined;
+    emailSupport?: string | URL | string[] | URL[] | undefined;
+    emailSales?: string | URL | string[] | URL[] | undefined;
   };
 }
 
@@ -138,7 +149,19 @@ function createContextFromHistory(userMessage: string, messages: unknown[]): Con
 
   if (messages.length > 1) {
     // Analizar los últimos mensajes para determinar el estado actual
-    const lastAssistantMessage = messages[messages.length - 2]?.content || ''; 
+    let lastAssistantMessage = '';
+    
+    // Extraer el contenido del último mensaje del asistente de forma segura
+    const lastMessage = messages[messages.length - 2];
+    
+    // Verificar si el mensaje tiene la propiedad content
+    if (lastMessage && typeof lastMessage === 'object' && lastMessage !== null) {
+      // Usamos type assertion para acceder a las propiedades
+      const messageObj = lastMessage as Record<string, unknown>;
+      if ('content' in messageObj && typeof messageObj.content === 'string') {
+        lastAssistantMessage = messageObj.content;
+      }
+    }
     
     if (lastAssistantMessage.includes('Nuestros Servicios') || lastAssistantMessage.includes('services_menu')) {
       context.currentState = ConversationStates.SERVICES_MENU;
@@ -168,10 +191,19 @@ function createContextFromHistory(userMessage: string, messages: unknown[]): Con
 
     // Extraer selecciones anteriores del usuario
     messages.forEach((msg, index) => {
-      if (msg.role === 'user' && index < messages.length - 1) {
-        const msgContent = msg.content.toLowerCase();
-        if (msgContent === '1' || msgContent === '2' || msgContent === '3' || msgContent === '4') {
-          context.userSelections.push(msgContent);
+      if (index < messages.length - 1) {
+        // Verificar si el mensaje tiene las propiedades role y content
+        if (msg && typeof msg === 'object' && msg !== null) {
+          const messageObj = msg as Record<string, unknown>;
+          const role = messageObj.role;
+          const content = messageObj.content;
+          
+          if (role === 'user' && typeof content === 'string') {
+            const msgContent = content.toLowerCase();
+            if (msgContent === '1' || msgContent === '2' || msgContent === '3' || msgContent === '4') {
+              context.userSelections.push(msgContent);
+            }
+          }
         }
       }
     });
@@ -300,13 +332,14 @@ function handleSpecificService(lowerMessage: string, context: ConversationContex
         "5. 🏠 Menú principal"
       ],
       metadata: {
-        emailGeneral: 'info@tutaller.com',
+        emailGeneral: "info@tutaller.com",
         emailSupport: 'soporte@tutaller.com',
         emailSales: 'ventas@tutaller.com'
       }
     };
   }
-    return getServicesMenu();
+  
+  return getServicesMenu();
 }
 
 function handleBackNavigation(context: ConversationContext): ChatResponse {
