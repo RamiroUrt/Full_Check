@@ -1,0 +1,45 @@
+{
+  "name": "full_check_proyect",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.72",
+    "@ai-sdk/react": "^2.0.101",
+    "@livekit/components-react": "^2.9.16",
+    "@livekit/components-styles": "^1.2.0",
+    "ai": "^5.0.101",
+    "aos": "^3.0.0-beta.6",
+    "framer-motion": "^12.23.24",
+    "leaflet": "^1.9.4",
+    "livekit-client": "^2.15.16",
+    "next": "^15.3.3",
+    "openai": "^6.9.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-leaflet": "^5.0.0",
+    "react-paginate": "^8.3.0",
+    "styled-jsx": "^5.1.7",
+    "swiper": "^11.2.10",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/aos": "^3.0.7",
+    "@types/leaflet": "^1.9.20",
+    "@types/node": "^20",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

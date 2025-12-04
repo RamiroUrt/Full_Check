@@ -1,0 +1,136 @@
+.modal-overlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.664);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+}
+
+.modal-container {
+  width: 90%;
+  height: 85%;
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* padding: 20px 20px 20px 0px; */
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.modal {
+  z-index: 99911;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 9px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  z-index: 99999999991120;
+  color: #fe7630;
+  background-color: var(--secondary-color);
+  transform: skew(36deg);
+}
+
+.close-btn>span {
+  transform: skew(-36deg);
+}
+
+.container-left {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.modal-img-container-left {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* transform: skew(-36deg); */
+}
+
+.modal-img {
+  /* transform: skew(36deg); */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-right {
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  top: 50px;
+  text-align: center;
+  position: absolute;
+}
+
+
+.modal-container,
+.modal-overlay {
+  transition: none !important;
+}
+
+
+.modal-part {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-left {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-right {
+  flex: 1;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.modal-part-img {
+  border-radius: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-price {
+  margin-top: 1rem;
+  color: #222;
+}
+
+.modal-description {
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
