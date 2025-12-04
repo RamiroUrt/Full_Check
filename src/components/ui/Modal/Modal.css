@@ -105,7 +105,8 @@
 }
 
 .modal-left {
-  flex: 1;
+  width: 30%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,6 +115,7 @@
 .modal-right {
   flex: 1;
   display: flex;
+  padding: 20px;
   flex-direction: column;
 }
 

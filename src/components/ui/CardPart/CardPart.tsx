@@ -32,7 +32,7 @@ const CardPart = ({ title, img, price }: cardPartsProps) => {
       </div>
 
       <Modal isOpen={isOpen} origin={origin} onClose={closeModal}>
-        <div className="modal modal-part">
+        <div className="modal">
           <div className="modal-left">
             {img && (
               <Image
@@ -45,18 +45,17 @@ const CardPart = ({ title, img, price }: cardPartsProps) => {
               />
             )}
           </div>
-          <div className="modal-right">
-            <p className="modal-description mt-2 text-sm text-gray-600">
-              Aquí podés agregar una breve descripción del repuesto o pieza, sus
-              características técnicas o compatibilidad con vehículos.
-            </p>
-            <h2 className="title modal-title">{title}</h2>
-            <p className="modal-price">
-              Precio: $ {price.toLocaleString()}
-            </p>
-            <button className="button mt-4" onClick={closeModal}>
-              Cerrar
-            </button>
+          <div className="modal-right ">
+            <section className="section-parts-container dot-group-parts">
+              <p className="modal-description mt-2 text-sm text-gray-600">
+                Aquí podés agregar una breve descripción del repuesto o pieza, sus
+                características técnicas o compatibilidad con vehículos.
+              </p>
+              <h2 className="title modal-title">{title}</h2>
+              <p className="modal-price">
+                Precio: $ {price.toLocaleString()}
+              </p>
+            </section>
           </div>
         </div>
       </Modal>

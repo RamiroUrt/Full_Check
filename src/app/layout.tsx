@@ -1,7 +1,8 @@
+
 import { pagesMetadata } from "@/constants/metadata"; 
 import "../global/globals.css";
 import { fonts  } from "../assets/fonts/fonts";
-import ChatWidget from "@/components/ui/ChatBox/ChatBox";
+import ChatWidgetWrapper from "@/components/ui/ChatBox/ChatWidget";
 
 export const metadata = pagesMetadata.home;
 export default function RootLayout({
@@ -9,6 +10,9 @@ export default function RootLayout({
 }: Readonly<{ 
   children: React.ReactNode;
 }>) {
+
+
+
   return (
     <html lang="es">
       <head>
@@ -16,7 +20,7 @@ export default function RootLayout({
       <body 
       className={fonts.className}>
         {children}
-        <ChatWidget />
+        <ChatWidgetWrapper/>
       </body>
     </html>
   );

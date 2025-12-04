@@ -11,6 +11,9 @@ import Footer from "@/components/layout/Footer/Footer";
 
 
 import { heroHomeProps } from "@/constants/heroProps";
+import { pagesMetadata } from "@/constants/metadata";
+
+export const metadata = pagesMetadata.home;
 
 const page = () => {
   return <>

@@ -41,8 +41,10 @@ const CardServices: React.FC<CardServices> = ({ title, image, description }) => 
             </div>
           </div>
           <div className="container-right">
-            <h2 className="title modal-title">{title}</h2>
-            <p>{description}</p>
+            <section className="section-parts-container dot-group-parts">
+              <h2 className="title modal-title">{title}</h2>
+              <p>{description}</p>
+            </section>
           </div>
         </div>
       </Modal>

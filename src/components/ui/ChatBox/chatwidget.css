@@ -92,8 +92,8 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 300px;
-  height: 380px;
+  width: 400px;
+  height: 430px;
   background-color: var(--border-color);
   /* border-radius: 12px; */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -296,4 +296,38 @@
 }
 .chat-send-btn:hover{
   transform: scale(1.1);
+}
+
+.typing {
+  color: #666;
+  font-style: italic;
+}
+
+.chat-send-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chat-input:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+.chat-message a {
+  color: #007bff;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.chat-message a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Para enlaces en mensajes del bot */
+.chat-row.bot .chat-message a {
+  color: #1a73e8;
+}
+
+.chat-row.bot .chat-message a:hover {
+  color: #0d47a1;
 }
