@@ -1,8 +1,9 @@
 import './CardUsed.css';
 import Image from 'next/image';
+import Link from 'next/link';
 import { CarUsed } from '@/types/CardUsed.Types';
 
-const CardUsed = ({ marca, modelo, año, precio, km, combustible, transmision, imagen }: CarUsed) => {
+const CardUsed = ({ id, marca, modelo, año, precio, km, combustible, transmision, imagen }: CarUsed) => {
   return (
     <div className="card-used-container">
         <div className="card-used-image">
@@ -35,7 +36,7 @@ const CardUsed = ({ marca, modelo, año, precio, km, combustible, transmision, i
           </div>
 
           <div className="button-card-used  flex justify-between items-center">
-            <button className="button btn-primary">Ver más</button>
+            <Link href={`/used/${id}`} className="button btn-primary">Ver más</Link>
             <p className="price text-lg font-semibold">$ {precio.toLocaleString()}</p>
           </div>
         </div>

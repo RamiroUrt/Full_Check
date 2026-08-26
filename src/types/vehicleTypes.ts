@@ -4,11 +4,13 @@ import cars from '../assets/img/ShopCars/cars.jpg'
 import trucks from '../assets/img/ShopCars/trucks.png'
 import vans from '../assets/img/ShopCars/vans.png'
 
+export type VehicleFilter = 'all' | 'car' | 'truck' | 'van';
+
 export interface VehicleCard {
   id: string
   title: string
   image: StaticImageData | string;
-  filter: string
+  filter: VehicleFilter
   aos?: {
     animation?: string
     duration?: number

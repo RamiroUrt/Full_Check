@@ -8,7 +8,7 @@ import ReactPaginate from 'react-paginate';
 const itemsPerPage = 30;
 
 interface Props {
-  filter: string;
+  filter: 'all' | 'car' | 'truck' | 'van';
 }
 
 const SectionParts = ({ filter }: Props) => {
@@ -49,7 +49,7 @@ setParts(data.parts);
   const filteredParts =
     filter === "all"
       ? parts
-      : parts.filter(part => Array.isArray(part.car) && part.car.includes(filter));
+      : parts.filter(part => Array.isArray(part.car) && part.car[0] === filter);
 
   const endOffset = itemOffset + itemsPerPage;
   const currentItems = filteredParts.slice(itemOffset, endOffset);
@@ -61,7 +61,7 @@ setParts(data.parts);
   };
 
   return (
-    <section className="section-parts-container dot-group-parts">
+    <section className="section-parts-container dot-group-parts section-parts-grid">
       <div className="cards-container-parts">
         {currentItems.map((part) => (
           <CardPart
@@ -70,6 +70,8 @@ setParts(data.parts);
             car={part.car}
             img={part.img}
             price={part.price}
+            description={part.description}
+            modelo={part.modelo}
           />
         ))}
       </div>

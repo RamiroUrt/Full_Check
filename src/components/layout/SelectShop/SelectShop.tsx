@@ -71,7 +71,7 @@ const SelectShop = () => {
             </div>
             <div className="container-right">
               <h2 className="title modal-title">{selectedVehicle.title}</h2>
-              <SectionParts filter={selectedVehicle.filter || "all"} />
+              <SectionParts key={selectedVehicle.filter || "all"} filter={selectedVehicle.filter || "all"} />
             </div>
           </div>
         )}

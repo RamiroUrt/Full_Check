@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { optionsList } from '../../../constants/optionsList'; 
 import './Select.css';
 
-const Select = ({ onChange }: { onChange?: (id: string) => void }) => {
+const Select = ({ onChange }: { onChange?: (id: 'all' | 'car' | 'truck' | 'van') => void }) => {
   const [selected, setSelected] = useState<string>("all"); // 👈 ahora guarda un string
 
   return (

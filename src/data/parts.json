@@ -9,7 +9,9 @@
         "car"
       ],
       "img": "",
-      "price": 2203
+      "price": 2203,
+      "description": "Bujía de encendido para motor naftero que garantiza una chispa estable y un arranque rápido en cualquier condición de temperatura. Su electrodo de cobre central mejora la conductividad térmica y prolonga la vida útil del encendido. Se recomienda reemplazarla cada 30.000 km y verificar el calibre según el manual del fabricante.",
+      "modelo": "Hilux"
     },
     {
       "id": 2,
@@ -18,7 +20,9 @@
         "truck"
       ],
       "img": "",
-      "price": 7198
+      "price": 7198,
+      "description": "Filtro de aceite de alto rendimiento que retiene partículas de desgaste, hollín e impurezas para proteger el motor y evitar daños costosos en bielas y bancadas. Su medio filtrante plisado ofrece un flujo constante incluso con aceite frío. Reemplazar junto con cada cambio de aceite mantiene la lubricación en óptimas condiciones.",
+      "modelo": "1114"
     },
     {
       "id": 3,
@@ -28,7 +32,9 @@
         "car"
       ],
       "img": "",
-      "price": 14806
+      "price": 14806,
+      "description": "Amortiguador hidráulico de doble tubo que asegura estabilidad, control y confort al absorber los impactos del camino. Reduce la oscilación de la carrocería y mejora el agarre de los neumáticos en curvas y frenadas. Revisar junto con bujes y rotulas garantiza el correcto comportamiento del tren delantero.",
+      "modelo": "1725"
     },
     {
       "id": 4,
@@ -37,7 +43,9 @@
         "car"
       ],
       "img": "",
-      "price": 14724
+      "price": 14724,
+      "description": "Juego de pastillas de freno de alta fricción con baja emisión de ruido y larga vida útil. Su compuesto semi-metálico ofrece una frenada firme y progresiva, ideal para uso urbano y rutero. Se recomienda rectificar o cambiar los discos al instalar pastillas nuevas y purgar el circuito hidráulico.",
+      "modelo": "Gol Trend"
     },
     {
       "id": 5,
@@ -47,7 +55,9 @@
         "van"
       ],
       "img": "",
-      "price": 10211
+      "price": 10211,
+      "description": "Batería de 12V libre de mantenimiento con gran capacidad de arranque para todo tipo de vehículos. Su construcción sellada evita derrames y resiste vibraciones y ciclos profundos de descarga. Verificar el sistema de carga del alternador asegura un rendimiento óptimo y una mayor vida útil de la batería.",
+      "modelo": "Corsa Classic"
     },
     {
       "id": 6,
@@ -56,7 +66,9 @@
         "truck"
       ],
       "img": "",
-      "price": 18211
+      "price": 18211,
+      "description": "Correa de distribución reforzada que sincroniza con precisión el cigüeñal y el árbol de levas, evitando daños graves y costosos en el motor ante una rotura. Fabricada con caucho de alta resistencia y refuerzo de fibra, soporta altas temperaturas y tensiones. Se recomienda reemplazarla según el kilometraje indicado por el fabricante, idealmente junto con tensores y bomba de agua.",
+      "modelo": "710"
     },
     {
       "id": 7,
@@ -66,7 +78,9 @@
         "car"
       ],
       "img": "",
-      "price": 7921
+      "price": 7921,
+      "description": "Filtro de aire de papel plisado que mejora la combustión y protege al motor de partículas, arena y polvo del ambiente. Un filtro limpio reduce el consumo de combustible y mantiene la potencia del motor. Reemplazarlo periódicamente o cada 15.000 km es clave en caminos de tierra y zonas polvorientas.",
+      "modelo": "Accelo 815"
     },
     {
       "id": 8,
@@ -75,7 +89,9 @@
         "truck"
       ],
       "img": "",
-      "price": 4245
+      "price": 4245,
+      "description": "Espejo retrovisor con ajuste manual y excelente visibilidad, fabricado con el ajuste y terminación original. Su cristal óptico reduce la fatiga visual y amplía el campo de visión trasero. Ideal para reemplazo directo sin modificaciones en vehículos equipados con el sistema original.",
+      "modelo": "K4000"
     },
     {
       "id": 9,
@@ -84,7 +100,9 @@
         "truck"
       ],
       "img": "",
-      "price": 17080
+      "price": 17080,
+      "description": "Radiador de cobre y aluminio que optimiza la refrigeración del motor en condiciones extremas de temperatura y carga. Sus conductos de flujo amplio mantienen el motor en su rango térmico ideal, incluso en tránsito lento o remolque. Revisar el estado de la tapa y las mangueras evita sobrecalentamientos y pérdidas de líquido refrigerante.",
+      "modelo": "Deliver 9"
     },
     {
       "id": 10,
@@ -95,7 +113,9 @@
         "van"
       ],
       "img": "",
-      "price": 2869
+      "price": 2869,
+      "description": "Sensor de oxígeno (sonda lambda) que mide el oxígeno en los gases de escape y optimiza la mezcla aire-combustible para reducir emisiones y consumo. Un sensor en buen estado evita fallas de ralentí y pérdida de potencia. Se recomienda reemplazarlo cuando se encienda la luz de inyección o supere los 80.000 km.",
+      "modelo": "208 Feline"
     },
     {
       "id": 11,
@@ -106,7 +126,9 @@
         "car"
       ],
       "img": "",
-      "price": 18249
+      "price": 18249,
+      "description": "Alternador que mantiene la batería en óptimo estado de carga y alimenta todos los sistemas eléctricos del vehículo, incluso en marcha lenta. Sus componentes de alta duración aseguran una salida de tensión estable. Revisar la correa y los bornes evita problemas de arranque y descargas de batería.",
+      "modelo": "Ranger"
     },
     {
       "id": 12,
@@ -116,7 +138,9 @@
         "truck"
       ],
       "img": "",
-      "price": 17230
+      "price": 17230,
+      "description": "Caja de cambios de alta resistencia con engranajes sincronizados para una conducción suave y silenciosa. Sus sincronizadores mejorados facilitan el cambio de marchas incluso en frío. Verificar el nivel y estado del aceite de transmisión prolonga la vida útil del conjunto.",
+      "modelo": "Corolla"
     },
     {
       "id": 13,
@@ -125,7 +149,9 @@
         "truck"
       ],
       "img": "",
-      "price": 11917
+      "price": 11917,
+      "description": "Bomba de agua centrífuga que garantiza la correcta circulación del refrigerante por el bloque y la culata, manteniendo la temperatura estable. Su impulsor metálico y cojinete sellado soportan el uso intensivo. Se recomienda reemplazarla junto con la correa de distribución para evitar doble trabajo de mano de obra.",
+      "modelo": "F12000"
     },
     {
       "id": 14,
@@ -136,7 +162,9 @@
         "car"
       ],
       "img": "",
-      "price": 3144
+      "price": 3144,
+      "description": "Radiador de calefacción que distribuye calor de forma uniforme en el habitáculo a través del circuito de agua caliente del motor. Su núcleo de alta eficiencia garantiza una rápida respuesta en días fríos. Revisar el estado de las mangueras y la válvula evita fugas y pérdidas de calor.",
+      "modelo": "Amarok"
     },
     {
       "id": 15,
@@ -145,7 +173,9 @@
         "van"
       ],
       "img": "",
-      "price": 12781
+      "price": 12781,
+      "description": "Volante de dirección con buen agarre y compatibilidad con el sistema de airbag y la bocina del vehículo. Su diseño ergonómico reduce la fatiga en viajes largos. Verificar la alineación al instalar evita vibraciones y desgaste irregular de neumáticos.",
+      "modelo": "S10"
     },
     {
       "id": 16,
@@ -156,7 +186,9 @@
         "car"
       ],
       "img": "",
-      "price": 13239
+      "price": 13239,
+      "description": "Bomba de combustible eléctrica que asegura un suministro constante y a la presión correcta para los inyectores. Su motor de alta duración y el filtro integrado protegen el circuito de inyección de impurezas. Se recomienda reemplazarla ante pérdida de presión o dificultad para arrancar.",
+      "modelo": "Saveiro"
     },
     {
       "id": 17,
@@ -167,7 +199,9 @@
         "truck"
       ],
       "img": "",
-      "price": 16799
+      "price": 16799,
+      "description": "Termostato de apertura precisa que regula la temperatura de trabajo del motor para un calentamiento rápido y una refrigeración constante. Mantiene el motor en su rango óptimo, reduciendo el desgaste y el consumo. Reemplazarlo junto con la bomba de agua garantiza el correcto funcionamiento del circuito.",
+      "modelo": "Strada"
     },
     {
       "id": 18,
@@ -177,7 +211,9 @@
         "van"
       ],
       "img": "",
-      "price": 16562
+      "price": 16562,
+      "description": "Filtro de combustible que retiene agua, residuos y partículas antes de que lleguen a los inyectores, protegiendo el sistema de alta presión. Su alta capacidad de filtrado asegura una inyección limpia y constante. Cambiarlo periódicamente previene fallas de arranque y pérdida de potencia.",
+      "modelo": "Cruze"
     },
     {
       "id": 19,
@@ -187,8 +223,10 @@
         "truck",
         "van"
       ],
-      "img":"/amortiguador.jpg",
-      "price": 12681
+      "img": "/amortiguador.jpg",
+      "price": 12681,
+      "description": "Amortiguador trasero que estabiliza el eje posterior y mejora el confort y el control de la marcha. Reduce los rebotes y el balanceo en frenadas y curvas, prolongando la vida de los neumáticos. Se recomienda reemplazarlos de a pares para mantener un comportamiento equilibrado.",
+      "modelo": "Onix"
     },
     {
       "id": 20,
@@ -199,7 +237,9 @@
         "car"
       ],
       "img": "",
-      "price": 8849
+      "price": 8849,
+      "description": "Tapa de válvulas sellada que protege el tren de válvulas y el árbol de levas del polvo y la humedad, evitando pérdidas de aceite. Su junta integrada asegura un sellado hermético y silencioso. Revisar el torque de fijación evita deformaciones y fugas de lubricante.",
+      "modelo": "813"
     },
     {
       "id": 21,
@@ -209,7 +249,9 @@
         "truck"
       ],
       "img": "",
-      "price": 7436
+      "price": 7436,
+      "description": "Embrague de fricción que transmite la potencia del motor a la caja de cambios con suavidad y precisión. Su disco de alta fricción y plato de presión balanceado garantizan un acople progresivo. Se recomienda verificar el volante de inercia y el rulemán de empuje al reemplazarlo.",
+      "modelo": "Fiesta KD"
     },
     {
       "id": 22,
@@ -219,7 +261,9 @@
         "van"
       ],
       "img": "",
-      "price": 15502
+      "price": 15502,
+      "description": "Catalizador que convierte los gases nocivos (CO, HC y NOx) en compuestos menos contaminantes, cumpliendo las normas de emisión vigentes. Su núcleo cerámico con recubrimiento noble asegura una alta eficiencia de conversión. Un catalizador obstruido provoca pérdida de potencia y aumento de consumo.",
+      "modelo": "1114"
     },
     {
       "id": 23,
@@ -229,7 +273,9 @@
         "car"
       ],
       "img": "",
-      "price": 6001
+      "price": 6001,
+      "description": "Tubo de escape de acero que canaliza los gases de combustión con baja pérdida de presión y resistencia a la corrosión. Su diseño optimizado reduce el ruido y las vibraciones. Revisar las abrazaderas y soportes evita fugas de gases y daños en el piso del vehículo.",
+      "modelo": "1725"
     },
     {
       "id": 24,
@@ -240,7 +286,9 @@
         "truck"
       ],
       "img": "",
-      "price": 5885
+      "price": 5885,
+      "description": "Faro delantero con óptica clara y excelente iluminación para una conducción nocturna segura. Su lente de policarbonato resistente a impactos mantiene la transparencia por más tiempo. Verificar el ajuste del haz de luz asegura una correcta iluminación sin deslumbrar a los demás conductores.",
+      "modelo": "Versa"
     },
     {
       "id": 25,
@@ -250,7 +298,9 @@
         "car"
       ],
       "img": "",
-      "price": 15509
+      "price": 15509,
+      "description": "Óptica trasera con señalización clara de luces de posición, freno y giro, resistente a la humedad y los impactos. Su sellado hermético evita el ingreso de agua y condensación. Verificar los conectores y el estado de las lámparas asegura una señalización correcta.",
+      "modelo": "710"
     },
     {
       "id": 26,
@@ -260,7 +310,9 @@
         "van"
       ],
       "img": "",
-      "price": 8786
+      "price": 8786,
+      "description": "Parachoques de material reforzado que absorbe impactos de baja velocidad y protege la carrocería y los faros. Su terminación de fábrica garantiza un ajuste y color originales. Se recomienda revisar los soportes y la estructura de montaje al instalar.",
+      "modelo": "Civic"
     },
     {
       "id": 27,
@@ -269,7 +321,9 @@
         "van"
       ],
       "img": "",
-      "price": 11044
+      "price": 11044,
+      "description": "Palanca de cambios ergonómica con selección precisa de marchas y acople directo a la caja. Su diseño reduce la vibración y el ruido en el interior. Verificar el buje y los cables de selección asegura un funcionamiento suave y sin holguras.",
+      "modelo": "Montana"
     },
     {
       "id": 28,
@@ -279,7 +333,9 @@
         "van"
       ],
       "img": "",
-      "price": 19534
+      "price": 19534,
+      "description": "Cinturón de seguridad retráctil de tres puntos que cumple las normas de seguridad vigentes y protege al ocupante ante una frenada o colisión. Su mecanismo de bloqueo inercial responde de forma inmediata. Revisar su funcionamiento y anclajes es clave para la seguridad.",
+      "modelo": "Accelo 815"
     },
     {
       "id": 29,
@@ -290,7 +346,9 @@
         "truck"
       ],
       "img": "",
-      "price": 2662
+      "price": 2662,
+      "description": "Sensor de velocidad que envía datos exactos al tablero y a la gestión del motor para el correcto control de la inyección y el ABS. Su señal precisa evita errores en el velocímetro y fallas del sistema de frenos. Reemplazarlo restaura el funcionamiento normal del vehículo.",
+      "modelo": "Duster Oroch"
     },
     {
       "id": 30,
@@ -299,7 +357,9 @@
         "van"
       ],
       "img": "",
-      "price": 19757
+      "price": 19757,
+      "description": "Filtro de habitáculo con carbón activado que purifica el aire del interior, eliminando olores, polvo y contaminantes. Mejora la calidad del aire respirado y protege el sistema de climatización. Se recomienda reemplazarlo cada 12 meses o 15.000 km.",
+      "modelo": "Hilux"
     },
     {
       "id": 31,
@@ -310,7 +370,9 @@
         "van"
       ],
       "img": "",
-      "price": 12398
+      "price": 12398,
+      "description": "Manguera de caucho reforzado que soporta altas temperaturas y presiones del circuito de refrigeración sin deformarse. Su construcción flexible facilita la instalación y evita roturas prematuras. Revisar abrazaderas y posibles grietas previene pérdidas de líquido refrigerante.",
+      "modelo": "K4000"
     },
     {
       "id": 32,
@@ -321,7 +383,9 @@
         "car"
       ],
       "img": "",
-      "price": 19305
+      "price": 19305,
+      "description": "Bujía de encendido que garantiza una combustión eficiente y un arranque confiable del motor naftero. Su diseño optimizado para el calor correcto evita depósitos y fallas de encendido. Se recomienda respetar el torque de ajuste y el calibre del electrodo.",
+      "modelo": "Ranger"
     },
     {
       "id": 33,
@@ -332,7 +396,9 @@
         "truck"
       ],
       "img": "",
-      "price": 12751
+      "price": 12751,
+      "description": "Sensor de temperatura del refrigerante que informa al tablero y a la computadora el estado térmico del motor. Su lectura precisa permite regular el ralentí, el encendido y el electroventilador. Un sensor defectuoso puede provocar sobrecalentamiento o alto consumo.",
+      "modelo": "Sandero"
     },
     {
       "id": 34,
@@ -343,7 +409,9 @@
         "van"
       ],
       "img": "",
-      "price": 9672
+      "price": 9672,
+      "description": "Motor eléctrico de escobillas para accionamientos auxiliares como elevalunas, techo corredizo o cerraduras. Su rodamiento de alta duración y su baja fricción aseguran un funcionamiento silencioso. Verificar el cableado y el regulador evita sobrecargas y fallas intermitentes.",
+      "modelo": "Deliver 9"
     },
     {
       "id": 35,
@@ -354,7 +422,9 @@
         "van"
       ],
       "img": "",
-      "price": 18728
+      "price": 18728,
+      "description": "Capó de chapa con terminación y ajuste de fábrica para reemplazo de carrocería tras un golpe. Su protección anticorrosiva y la correcta alineación garantizan un cierre seguro. Se recomienda verificar los bujes de bisagra y el pestillo al instalar.",
+      "modelo": "Focus III"
     },
     {
       "id": 36,
@@ -364,7 +434,9 @@
         "car"
       ],
       "img": "",
-      "price": 6795
+      "price": 6795,
+      "description": "Puerta completa de chapa con ajuste original y mecanismo incluido para reemplazo directo de carrocería. Su estructura reforzada mantiene los puntos de anclaje de bisagras, cerradura y elevalunas. Verificar la alineación y el cierre centralizado al instalarla asegura un funcionamiento correcto.",
+      "modelo": "Amarok"
     },
     {
       "id": 37,
@@ -374,7 +446,9 @@
         "car"
       ],
       "img": "",
-      "price": 7771
+      "price": 7771,
+      "description": "Parabrisas laminado de seguridad con excelente transparencia y resistencia a los impactos. Su construcción de dos capas de vidrio y PVB retiene los fragmentos ante un golpe, protegiendo a los ocupantes. Se recomienda reemplazarlo solo con selladores y técnicos certificados.",
+      "modelo": "F12000"
     },
     {
       "id": 38,
@@ -384,7 +458,9 @@
         "truck"
       ],
       "img": "",
-      "price": 4267
+      "price": 4267,
+      "description": "Asiento de conductor con regulación y guías incluidas, tapizado de fábrica con espuma de alta densidad. Su estructura reforzada garantiza confort y seguridad en viajes largos. Verificar los rieles y el anclaje del cinturón asegura una correcta instalación.",
+      "modelo": "S10"
     },
     {
       "id": 39,
@@ -395,7 +471,9 @@
         "van"
       ],
       "img": "",
-      "price": 17457
+      "price": 17457,
+      "description": "Asiento trasero completo con estructura reforzada y anclajes para cinturones de seguridad. Su espuma ergonómica ofrece confort y sujeción adecuada. Se recomienda verificar los puntos de fijación y el plegado al instalar.",
+      "modelo": "Cronos"
     },
     {
       "id": 40,
@@ -406,7 +484,9 @@
         "car"
       ],
       "img": "",
-      "price": 5287
+      "price": 5287,
+      "description": "Espejo lateral con regulación manual o eléctrica según la versión del vehículo. Su cristal de calidad ofrece un amplio campo de visión y resiste la humedad. Verificar el motor de regulación eléctrica y la calefacción integrada al instalarlo.",
+      "modelo": "Saveiro"
     },
     {
       "id": 41,
@@ -417,7 +497,9 @@
         "van"
       ],
       "img": "",
-      "price": 1689
+      "price": 1689,
+      "description": "Tapizado de tela o piel de alta resistencia con costuras reforzadas y ajuste original. Su material antidesgarro mantiene el aspecto del interior y es fácil de limpiar. Se recomienda verificar la estructura y las guías del asiento al reemplazarlo.",
+      "modelo": "813"
     },
     {
       "id": 42,
@@ -428,7 +510,9 @@
         "van"
       ],
       "img": "",
-      "price": 17663
+      "price": 17663,
+      "description": "Radiador de aceite que mantiene la temperatura del lubricante bajo control en motores de alta exigencia. Su núcleo de flujo eficiente evita el sobrecalentamiento del aceite y prolonga la vida del motor. Verificar mangueras y el termostato de aceite al instalarlo.",
+      "modelo": "1114"
     },
     {
       "id": 43,
@@ -437,7 +521,9 @@
         "van"
       ],
       "img": "",
-      "price": 13773
+      "price": 13773,
+      "description": "Filtro hidráulico de alta eficiencia para sistemas de dirección, transmisión o carga. Retiene partículas que pueden dañar bombas y válvulas hidráulicas. Reemplazarlo según el intervalo indicado asegura un funcionamiento suave y libre de obstrucciones.",
+      "modelo": "Strada"
     },
     {
       "id": 44,
@@ -446,7 +532,9 @@
         "car"
       ],
       "img": "",
-      "price": 13861
+      "price": 13861,
+      "description": "Bomba de freno (cilindro maestro) que transmite la presión hidráulica al circuito y asegura una frenada firme y pareja. Su cuerpo de hierro fundido y pistones de precisión garantizan durabilidad. Se recomienda purgar el sistema y revisar el nivel de líquido al instalarla.",
+      "modelo": "Gol Trend"
     },
     {
       "id": 45,
@@ -456,7 +544,9 @@
         "van"
       ],
       "img": "",
-      "price": 16544
+      "price": 16544,
+      "description": "Filtro de aire acondicionado que evita el ingreso de partículas, polvo y residuos al sistema de climatización, protegiendo el evaporador y el compresor. Su medio filtrante de alta capacidad mantiene la eficiencia del aire acondicionado. Cambiarlo periódicamente previene daños costosos.",
+      "modelo": "1725"
     },
     {
       "id": 46,
@@ -467,7 +557,9 @@
         "car"
       ],
       "img": "",
-      "price": 19873
+      "price": 19873,
+      "description": "Filtro de transmisión que limpia el aceite hidráulico y protege las válvulas, embragues y planetarios de la caja automática. Retiene partículas de desgaste que afectan el cambio de marchas. Reemplazarlo junto con el aceite mantiene la transmisión en óptimas condiciones.",
+      "modelo": "710"
     },
     {
       "id": 47,
@@ -477,7 +569,9 @@
         "truck"
       ],
       "img": "",
-      "price": 13298
+      "price": 13298,
+      "description": "Polea de cigüeñal balanceada que transmite el movimiento a la correa y a los accesorios del motor. Su construcción de acero o hierro fundido soporta altas revoluciones sin vibraciones. Revisar el estado del amortiguador de vibraciones integrado evita daños en la correa.",
+      "modelo": "Corsa Classic"
     },
     {
       "id": 48,
@@ -488,7 +582,9 @@
         "car"
       ],
       "img": "",
-      "price": 13745
+      "price": 13745,
+      "description": "Correa de alternador multicanales que acciona el alternador, la bomba de agua y demás auxiliares con baja fricción y ruido. Su compuesto de caucho reforzado resiste la fatiga y el calor. Revisar el tensor y las poleas al reemplazarla asegura la tensión correcta.",
+      "modelo": "Accelo 815"
     },
     {
       "id": 49,
@@ -497,7 +593,9 @@
         "car"
       ],
       "img": "",
-      "price": 11487
+      "price": 11487,
+      "description": "Colector de admisión que distribuye el aire de manera uniforme entre los cilindros para una combustión equilibrada. Su diseño optimizado mejora la respuesta del acelerador y la potencia. Verificar el estado de las juntas evita entradas de aire falso y fallas en el ralentí.",
+      "modelo": "208 Feline"
     },
     {
       "id": 50,
@@ -506,7 +604,9 @@
         "van"
       ],
       "img": "",
-      "price": 2913
+      "price": 2913,
+      "description": "Filtro de polvo para sistemas de admisión en ambientes exigentes, que protege el motor de arena y partículas finas. Su alta capacidad de retención mantiene el flujo de aire constante. Se recomienda su limpieza o reemplazo según el uso del vehículo.",
+      "modelo": "Montana"
     },
     {
       "id": 51,
@@ -516,7 +616,9 @@
         "truck"
       ],
       "img": "",
-      "price": 17629
+      "price": 17629,
+      "description": "Eje de transmisión que lleva la potencia de la caja de cambios a los ejes motrices con equilibrio perfecto. Sus crucetas y soportes de alta calidad reducen vibraciones y ruidos. Verificar el balanceo y los rodamientos evita fallas prematuras del conjunto.",
+      "modelo": "Corolla"
     },
     {
       "id": 52,
@@ -527,7 +629,9 @@
         "car"
       ],
       "img": "",
-      "price": 15087
+      "price": 15087,
+      "description": "Palier (semieje) con juntas homocinéticas que transmite el movimiento a las ruedas con suavidad y sin ruidos. Su fuelle protector mantiene la grasa lubricante y evita el ingreso de suciedad. Revisar las juntas al detectar ruidos en giros evita daños mayores.",
+      "modelo": "Duster Oroch"
     },
     {
       "id": 53,
@@ -537,7 +641,9 @@
         "car"
       ],
       "img": "",
-      "price": 4734
+      "price": 4734,
+      "description": "Amortiguador delantero que mejora la estabilidad y la respuesta de la dirección, manteniendo el neumático en contacto con el suelo. Reduce el balanceo en curvas y las frenadas largas. Reemplazarlo de a pares con bujes y rotulas garantiza un comportamiento equilibrado.",
+      "modelo": "K4000"
     },
     {
       "id": 54,
@@ -547,7 +653,9 @@
         "truck"
       ],
       "img": "",
-      "price": 18626
+      "price": 18626,
+      "description": "Bomba de dirección asistida que reduce el esfuerzo al girar el volante y mantiene la asistencia constante en maniobras. Su construcción de alta presión soporta el uso urbano intensivo. Verificar el nivel de líquido y la correa evita fallas y ruidos en la dirección.",
+      "modelo": "Cruze"
     },
     {
       "id": 55,
@@ -556,7 +664,9 @@
         "car"
       ],
       "img": "",
-      "price": 3117
+      "price": 3117,
+      "description": "Caja de fusibles con distribución eléctrica y protección de los circuitos principales del vehículo. Su diseño organizado facilita la identificación y el reemplazo de fusibles. Verificar el estado de los relés y las pistas evita fallas eléctricas intermitentes.",
+      "modelo": "Onix"
     },
     {
       "id": 56,
@@ -567,7 +677,9 @@
         "car"
       ],
       "img": "",
-      "price": 14910
+      "price": 14910,
+      "description": "Cierre centralizado que bloquea y desbloquea las puertas con comando remoto o llave, brindando seguridad y comodidad. Su actuador de alta duración opera de forma silenciosa. Se recomienda verificar el cableado y la central de mando al instalarlo.",
+      "modelo": "Deliver 9"
     },
     {
       "id": 57,
@@ -578,7 +690,9 @@
         "car"
       ],
       "img": "",
-      "price": 13170
+      "price": 13170,
+      "description": "Manija de puerta exterior o interior con ajuste original y mecanismo de apertura preciso. Su terminación de fábrica garantiza un aspecto y funcionamiento originales. Verificar el cable o varilla de accionamiento asegura una apertura correcta.",
+      "modelo": "Hilux"
     },
     {
       "id": 58,
@@ -587,7 +701,9 @@
         "truck"
       ],
       "img": "",
-      "price": 6590
+      "price": 6590,
+      "description": "Sensor de presión para aplicaciones de aceite, aire o combustible, que envía señales precisas al tablero y a la gestión electrónica. Su construcción sellada resiste vibraciones y temperaturas extremas. Un sensor en mal estado puede encender luces de advertencia falsas.",
+      "modelo": "F12000"
     },
     {
       "id": 59,
@@ -597,7 +713,9 @@
         "van"
       ],
       "img": "",
-      "price": 2907
+      "price": 2907,
+      "description": "Filtro de gasolina de alta presión para sistemas de inyección que protege los inyectores de partículas y residuos. Su medio filtrante de alta eficiencia mantiene una presión de combustible constante. Reemplazarlo según el intervalo indicado evita fallas de arranque y pérdida de potencia.",
+      "modelo": "813"
     },
     {
       "id": 60,
@@ -606,7 +724,9 @@
         "van"
       ],
       "img": "",
-      "price": 19622
+      "price": 19622,
+      "description": "Bomba de agua eléctrica de flujo variable que optimiza la refrigeración según la demanda del motor, mejorando la eficiencia y el consumo. Su funcionamiento independiente del motor permite refrigerar tras el apagado. Verificar el módulo de control al instalar asegura un funcionamiento correcto.",
+      "modelo": "Ranger"
     },
     {
       "id": 61,
@@ -616,7 +736,9 @@
         "van"
       ],
       "img": "",
-      "price": 15740
+      "price": 15740,
+      "description": "Tapa de radiador con válvula de presión calibrada que mantiene el sistema refrigerante a presión óptima, evitando ebullición y pérdidas. Su sellado hermético protege el radiador y las mangueras. Verificar el estado de la junta y la calibración al reemplazarla.",
+      "modelo": "1114"
     },
     {
       "id": 62,
@@ -627,7 +749,9 @@
         "truck"
       ],
       "img": "",
-      "price": 6769
+      "price": 6769,
+      "description": "Guía de puerta que asegura el correcto deslizamiento del vidrio y evita ruidos y desgastes en el elevalunas. Su material de baja fricción protege el cristal de rayaduras. Reemplazarla en ambas puertas garantiza un funcionamiento parejo.",
+      "modelo": "Fiesta KD"
     },
     {
       "id": 63,
@@ -636,7 +760,9 @@
         "car"
       ],
       "img": "",
-      "price": 5717
+      "price": 5717,
+      "description": "Tapa de motor (cubierta) que protege los componentes superiores del motor del polvo y la suciedad, y reduce el ruido de inyección. Su material fonoabsorbente mejora el confort acústico del habitáculo. Verificar los bujes de anclaje al instalar evita ruidos.",
+      "modelo": "Versa"
     },
     {
       "id": 64,
@@ -646,7 +772,9 @@
         "car"
       ],
       "img": "",
-      "price": 8500
+      "price": 8500,
+      "description": "Ventilador de radiador que mantiene la temperatura del motor en tránsito lento, embotellamiento o remolque. Su motor eléctrico de alta duración genera un flujo de aire constante. Verificar el termocontacto y los conectores asegura el encendido correcto.",
+      "modelo": "Amarok"
     },
     {
       "id": 65,
@@ -657,7 +785,9 @@
         "van"
       ],
       "img": "",
-      "price": 15468
+      "price": 15468,
+      "description": "Cámara de retroceso con visión amplia que facilita el estacionamiento y las maniobras en espacios reducidos. Su sensor de alta resolución ofrece una imagen clara incluso con poca luz. Se recomienda verificar la compatibilidad con la pantalla y el cableado.",
+      "modelo": "1725"
     },
     {
       "id": 66,
@@ -666,7 +796,9 @@
         "car"
       ],
       "img": "",
-      "price": 4106
+      "price": 4106,
+      "description": "Sensor de lluvia que detecta las gotas sobre el parabrisas y activa los limpiaparabrisas automáticamente, mejorando la seguridad en días lluviosos. Su respuesta rápida ajusta la velocidad de barrido según la intensidad. Verificar la instalación en el soporte del parabrisas.",
+      "modelo": "Civic"
     },
     {
       "id": 67,
@@ -675,7 +807,9 @@
         "car"
       ],
       "img": "",
-      "price": 8331
+      "price": 8331,
+      "description": "Limpiaparabrisas (escobillas) con goma de alta duración que limpian sin dejar estrías ni ruidos. Su diseño aerodinámico evita el levantamiento a alta velocidad. Se recomienda reemplazarlas cada 6 a 12 meses según el uso y el clima.",
+      "modelo": "Sandero"
     },
     {
       "id": 68,
@@ -685,7 +819,9 @@
         "car"
       ],
       "img": "",
-      "price": 17280
+      "price": 17280,
+      "description": "Motor de arranque de alto torque que garantiza un encendido confiable incluso en climas fríos. Su solenoide y bendix de alta calidad aseguran un acople firme al volante de inercia. Verificar la batería y las conexiones asegura un arranque correcto.",
+      "modelo": "710"
     },
     {
       "id": 69,
@@ -695,7 +831,9 @@
         "van"
       ],
       "img": "",
-      "price": 6540
+      "price": 6540,
+      "description": "Panel de instrumentos (tablero) con indicadores claros y retroiluminación para una lectura cómoda de día y de noche. Su diseño original se integra a la consola sin modificaciones. Verificar la compatibilidad electrónica con el vehículo al instalarlo.",
+      "modelo": "Accelo 815"
     },
     {
       "id": 70,
@@ -706,7 +844,9 @@
         "truck"
       ],
       "img": "",
-      "price": 5000
+      "price": 5000,
+      "description": "Tapón de combustible con sellado hermético y válvula de seguridad que evita derrames y pérdidas por evaporación. Su diseño original asegura un ajuste perfecto a la boca del tanque. Verificar la cinta de sujeción evita perderlo durante la carga.",
+      "modelo": "Focus III"
     },
     {
       "id": 71,
@@ -715,7 +855,9 @@
         "truck"
       ],
       "img": "",
-      "price": 2896
+      "price": 2896,
+      "description": "Reloj de tablero digital o analógico con horario preciso y retroiluminación de alta visibilidad. Su diseño original se adapta al panel de instrumentos. Se recomienda verificar la conexión eléctrica y la compatibilidad de tamaño al instalarlo.",
+      "modelo": "K4000"
     },
     {
       "id": 72,
@@ -724,7 +866,9 @@
         "truck"
       ],
       "img": "",
-      "price": 17754
+      "price": 17754,
+      "description": "Sensor de desgaste de freno que alerta cuando las pastillas llegan al límite de vida útil, evitando daños en los discos. Su contacto de alta duración funciona de forma confiable. Se recomienda revisarlo junto con el sistema de frenos.",
+      "modelo": "Deliver 9"
     },
     {
       "id": 73,
@@ -733,7 +877,9 @@
         "truck"
       ],
       "img": "",
-      "price": 14645
+      "price": 14645,
+      "description": "Soporte de motor (cuna) que fija el bloque al chasis y reduce las vibraciones y el ruido del motor. Su goma de alta dureza absorbe las oscilaciones y prolonga la vida de las transmisiones. Reemplazarlo de a pares mantiene el motor alineado.",
+      "modelo": "F12000"
     },
     {
       "id": 74,
@@ -743,7 +889,9 @@
         "car"
       ],
       "img": "",
-      "price": 17968
+      "price": 17968,
+      "description": "Batería auxiliar para accesorios, sistemas de entretenimiento y equipamiento adicional, que evita descargar la batería principal. Su construcción libre de mantenimiento soporta ciclos profundos. Verificar el aislador y el sistema de carga al instalarla.",
+      "modelo": "S10"
     },
     {
       "id": 75,
@@ -752,7 +900,9 @@
         "truck"
       ],
       "img": "",
-      "price": 10088
+      "price": 10088,
+      "description": "Filtro de aire deportivo de alto flujo que mejora la respiración del motor, optimizando la potencia y la respuesta del acelerador. Su tejido lavable y reutilizable reduce el costo de mantenimiento. Se recomienda limpiarlo con el aceite específico del fabricante.",
+      "modelo": "813"
     },
     {
       "id": 76,
@@ -762,7 +912,9 @@
         "van"
       ],
       "img": "",
-      "price": 10317
+      "price": 10317,
+      "description": "Escape deportivo que mejora el sonido y el flujo de gases de escape, reduciendo la contrapresión y liberando potencia. Su construcción de acero inoxidable resiste la corrosión y el calor. Verificar la compatibilidad con el catalizador y las sondas al instalarlo.",
+      "modelo": "1114"
     },
     {
       "id": 77,
@@ -771,7 +923,9 @@
         "car"
       ],
       "img": "",
-      "price": 2054
+      "price": 2054,
+      "description": "Volante deportivo con diseño ergonómico y buen agarre, que mejora la sensación de conducción y el control del vehículo. Su acabado reforzado resiste el uso intensivo. Verificar la compatibilidad con el sistema de airbag y la bocina.",
+      "modelo": "Cronos"
     },
     {
       "id": 78,
@@ -781,7 +935,9 @@
         "truck"
       ],
       "img": "",
-      "price": 1562
+      "price": 1562,
+      "description": "Bujía de iridio de larga duración con encendido más eficiente y mayor resistencia al desgaste. Su electrodo fino concentra la chispa y mejora la combustión y el consumo. Se recomienda respetar el torque y el calibre indicado por el fabricante.",
+      "modelo": "Saveiro"
     },
     {
       "id": 79,
@@ -791,7 +947,9 @@
         "van"
       ],
       "img": "",
-      "price": 19024
+      "price": 19024,
+      "description": "Faro antiniebla con haz amplio que mejora la visibilidad en condiciones de niebla, lluvia intensa o polvo. Su diseño compacto se integra al paragolpes o la parrilla original. Verificar la regulación del haz y el sellado al instalarlo.",
+      "modelo": "Gol Trend"
     },
     {
       "id": 80,
@@ -800,7 +958,9 @@
         "truck"
       ],
       "img": "",
-      "price": 17592
+      "price": 17592,
+      "description": "Capó de fibra de vidrio liviano que reduce el peso del vehículo, mejorando la aceleración y el consumo. Su terminación de fábrica ofrece un ajuste y una resistencia adecuados. Se recomienda verificar los pestillos y las bisagras al instalarlo.",
+      "modelo": "1725"
     },
     {
       "id": 81,
@@ -811,7 +971,9 @@
         "truck"
       ],
       "img": "",
-      "price": 11248
+      "price": 11248,
+      "description": "Soporte de motor trasero que completa el sistema de anclaje del motor y reduce las vibraciones y el ruido del tren motriz. Su goma reforzada mantiene la alineación de la transmisión. Reemplazarlo de a pares garantiza un comportamiento equilibrado.",
+      "modelo": "Strada"
     },
     {
       "id": 82,
@@ -821,7 +983,9 @@
         "truck"
       ],
       "img": "",
-      "price": 18896
+      "price": 18896,
+      "description": "Juego de bujes de suspensión que elimina holguras, ruidos y golpes en el tren delantero, mejorando la dirección y el confort. Su goma-metal de alta densidad resiste el desgaste y las deformaciones. Se recomienda alineación posterior a la instalación.",
+      "modelo": "Montana"
     },
     {
       "id": 83,
@@ -831,7 +995,9 @@
         "truck"
       ],
       "img": "",
-      "price": 19345
+      "price": 19345,
+      "description": "Kit de embrague completo que incluye disco, plato de presión y rulemán de empuje, listo para instalar y garantizar un acople correcto. Sus componentes balanceados ofrecen un cambio de marchas suave y duradero. Se recomienda rectificar el volante de inercia al reemplazarlo.",
+      "modelo": "Corsa Classic"
     },
     {
       "id": 84,
@@ -840,7 +1006,9 @@
         "truck"
       ],
       "img": "",
-      "price": 18150
+      "price": 18150,
+      "description": "Módulo de control electrónico (ECU) que gestiona la inyección, el encendido y los sistemas del motor para un funcionamiento óptimo. Su memoria y procesamiento de alta velocidad corrigen fallas en tiempo real. Se recomienda programarlo según el vehículo y verificar el cableado.",
+      "modelo": "710"
     },
     {
       "id": 85,
@@ -851,7 +1019,9 @@
         "truck"
       ],
       "img": "",
-      "price": 13119
+      "price": 13119,
+      "description": "Sensor de presión del turbo que mide la sobrealimentación y ajusta la mezcla para proteger el motor y optimizar la potencia. Su lectura precisa evita daños por exceso de presión. Un sensor en mal estado puede provocar pérdida de potencia o modo de seguridad.",
+      "modelo": "208 Feline"
     },
     {
       "id": 86,
@@ -860,7 +1030,9 @@
         "truck"
       ],
       "img": "",
-      "price": 15430
+      "price": 15430,
+      "description": "Conjunto de balancines que acciona las válvulas del motor con precisión y reduce el ruido mecánico. Sus superficies templadas resisten el desgaste y las altas revoluciones. Verificar la regulación de la holgura de válvulas al instalarlo.",
+      "modelo": "Accelo 815"
     },
     {
       "id": 87,
@@ -870,7 +1042,9 @@
         "car"
       ],
       "img": "",
-      "price": 17930
+      "price": 17930,
+      "description": "Bobina de encendido que genera la alta tensión necesaria para la chispa de las bujías, asegurando una combustión completa. Su bobinado encapsulado resiste el calor y la humedad. Reemplazarla ante fallas de encendido o titubeos en la aceleración.",
+      "modelo": "Duster Oroch"
     },
     {
       "id": 88,
@@ -879,7 +1053,9 @@
         "car"
       ],
       "img": "",
-      "price": 13858
+      "price": 13858,
+      "description": "Bomba de vacío para servofreno y accionamientos neumáticos que garantiza la asistencia al frenado y el funcionamiento de los sistemas. Su construcción sellada mantiene el vacío constante. Verificar las mangueras y el anti-retorno al instalarla.",
+      "modelo": "Corolla"
     },
     {
       "id": 89,
@@ -888,7 +1064,9 @@
         "car"
       ],
       "img": "",
-      "price": 13796
+      "price": 13796,
+      "description": "Sensor MAP que mide la presión del múltiple de admisión y envía la información a la computadora para calcular la mezcla. Su respuesta rápida optimiza el consumo y las emisiones. Un sensor con fallas provoca ralentí inestable y pérdida de potencia.",
+      "modelo": "Cruze"
     },
     {
       "id": 90,
@@ -899,7 +1077,9 @@
         "truck"
       ],
       "img": "",
-      "price": 6197
+      "price": 6197,
+      "description": "Válvula EGR que recircula parte de los gases de escape hacia la admisión, reduciendo las emisiones de óxidos de nitrógeno. Su cuerpo de alta resistencia soporta las temperaturas del motor. Se recomienda limpiarla o reemplazarla ante obstrucciones que afecten el ralentí.",
+      "modelo": "Onix"
     },
     {
       "id": 91,
@@ -909,7 +1089,9 @@
         "van"
       ],
       "img": "",
-      "price": 16737
+      "price": 16737,
+      "description": "Correa de accesorios (poly-V) que acciona alternador, bomba de agua, dirección y aire acondicionado con baja fricción. Su compuesto reforzado resiste la fatiga, el calor y el desgaste. Revisar el tensor y las poleas al reemplazarla asegura la tensión correcta.",
+      "modelo": "Fiesta KD"
     },
     {
       "id": 92,
@@ -920,7 +1102,9 @@
         "car"
       ],
       "img": "",
-      "price": 7564
+      "price": 7564,
+      "description": "Juego de juntas de motor completo para reparación general, que incluye las juntas de culata, tapa de válvulas, múltiples y sellos. Sus materiales de alta calidad garantizan un sellado hermético. Se recomienda verificar el torque y la secuencia de apriete según el manual.",
+      "modelo": "K4000"
     },
     {
       "id": 93,
@@ -931,7 +1115,9 @@
         "van"
       ],
       "img": "",
-      "price": 19397
+      "price": 19397,
+      "description": "Sensor de detonación (knock) que detecta vibraciones anormales de la combustión y corrige el avance del encendido para proteger el motor. Su respuesta milimétrica evita daños por golpeteo. Un sensor defectuoso puede reducir la potencia y aumentar el consumo.",
+      "modelo": "Versa"
     },
     {
       "id": 94,
@@ -940,7 +1126,9 @@
         "car"
       ],
       "img": "",
-      "price": 19402
+      "price": 19402,
+      "description": "Radiador intercooler que enfría el aire comprimido por el turbo, aumentando la densidad del aire y mejorando la potencia y la eficiencia. Su núcleo de alta disipación soporta altas presiones. Verificar las mangueras y abrazaderas al instalarlo.",
+      "modelo": "Civic"
     },
     {
       "id": 95,
@@ -951,7 +1139,9 @@
         "van"
       ],
       "img": "",
-      "price": 8345
+      "price": 8345,
+      "description": "Cilindro maestro de freno con circuito doble que garantiza la frenada incluso ante la falla de un circuito. Su construcción de hierro fundido y pistones de precisión ofrecen durabilidad y firmeza. Se recomienda purgar el sistema al instalarlo.",
+      "modelo": "Sandero"
     },
     {
       "id": 96,
@@ -962,7 +1152,9 @@
         "car"
       ],
       "img": "",
-      "price": 11527
+      "price": 11527,
+      "description": "Tapa de balancines con junta incluida que evita pérdidas de aceite y protege el tren de válvulas. Su sellado hermético mantiene el motor limpio y reduce el ruido. Verificar el torque de los tornillos evita deformaciones y fugas.",
+      "modelo": "Hilux"
     },
     {
       "id": 97,
@@ -973,7 +1165,9 @@
         "car"
       ],
       "img": "",
-      "price": 5984
+      "price": 5984,
+      "description": "Filtro de transmisión manual que mantiene limpio el lubricante de la caja, reteniendo partículas de desgaste de engranajes y sincronizadores. Protege los componentes y prolonga la vida de la transmisión. Reemplazarlo con el cambio de aceite mantiene el cambio suave.",
+      "modelo": "Ranger"
     },
     {
       "id": 98,
@@ -984,7 +1178,9 @@
         "van"
       ],
       "img": "",
-      "price": 6665
+      "price": 6665,
+      "description": "Soporte de caja de cambios que fija la transmisión al chasis y reduce vibraciones y ruidos. Su goma de alta dureza absorbe las oscilaciones del tren motriz. Reemplazarlo cuando esté agrietado o desgastado evita golpes y vibraciones en la marcha.",
+      "modelo": "Focus III"
     },
     {
       "id": 99,
@@ -995,7 +1191,9 @@
         "car"
       ],
       "img": "",
-      "price": 8942
+      "price": 8942,
+      "description": "Cojinete de rueda delantero con rodamiento de alta duración que permite un giro suave y silencioso de la rueda. Su sellado integrado protege del agua y la suciedad. Verificar el ajuste del par de apriete al instalarlo evita fallas prematuras.",
+      "modelo": "Amarok"
     },
     {
       "id": 100,
@@ -1004,7 +1202,9 @@
         "car"
       ],
       "img": "",
-      "price": 3681
+      "price": 3681,
+      "description": "Manguera de vacío flexible y resistente al calor y la presión, ideal para sistemas de admisión, servofreno y control de emisiones. Su construcción de silicona o caucho reforzado evita colapsos. Verificar las conexiones evita fugas de vacío y fallas del motor.",
+      "modelo": "Cronos"
     },
     {
       "id": 101,
@@ -1014,7 +1214,9 @@
         "truck"
       ],
       "img": "",
-      "price": 5370
+      "price": 5370,
+      "description": "Varilla de nivel de aceite con indicador claro que permite medir el nivel del lubricante de forma rápida y precisa. Su mango ergonómico facilita la extracción y la lectura. Revisar el sello de goma evita pérdidas de presión del cárter.",
+      "modelo": "Gol Trend"
     },
     {
       "id": 102,
@@ -1023,7 +1225,9 @@
         "car"
       ],
       "img": "",
-      "price": 14641
+      "price": 14641,
+      "description": "Resorte de válvula que asegura el cierre correcto de las válvulas a altas revoluciones, evitando el flotaje y la pérdida de potencia. Su acero templado resiste la fatiga y el calor. Se recomienda reemplazarlo en conjunto con la reparación del motor.",
+      "modelo": "Corsa Classic"
     },
     {
       "id": 103,
@@ -1032,7 +1236,9 @@
         "van"
       ],
       "img": "",
-      "price": 16665
+      "price": 16665,
+      "description": "Junta del múltiple de escape resistente a altas temperaturas que sella la unión entre el múltiple y la culata, evitando fugas de gases. Su material grafítico soporta el calor extremo. Reemplazarla elimina silbidos y pérdidas de contrapresión.",
+      "modelo": "S10"
     },
     {
       "id": 104,
@@ -1043,7 +1249,9 @@
         "car"
       ],
       "img": "",
-      "price": 7529
+      "price": 7529,
+      "description": "Terminal de dirección (axial) con rótula esférica de precisión que une la cremallera con la mangueta y permite un control exacto de la dirección. Su blindaje de alta resistencia soporta las cargas del tren delantero. Se recomienda alineación tras la instalación.",
+      "modelo": "Saveiro"
     },
     {
       "id": 105,
@@ -1053,7 +1261,9 @@
         "truck"
       ],
       "img": "",
-      "price": 5780
+      "price": 5780,
+      "description": "Retén de cigüeñal que sella la salida del cigüeñal y evita pérdidas de aceite hacia la caja o el exterior. Su labio de precisión resiste la fricción y las altas temperaturas. Reemplazarlo con la reparación del motor evita fugas y contaminación del embrague.",
+      "modelo": "Strada"
     },
     {
       "id": 106,
@@ -1064,7 +1274,9 @@
         "truck"
       ],
       "img": "",
-      "price": 17603
+      "price": 17603,
+      "description": "Sonda lambda que mide la concentración de oxígeno en los gases de escape y ajusta la mezcla de combustible en tiempo real. Un sensor en buen estado reduce emisiones y consumo. Se recomienda reemplazarla ante errores de mezcla o luz de inyección encendida.",
+      "modelo": "Montana"
     },
     {
       "id": 107,
@@ -1074,7 +1286,9 @@
         "truck"
       ],
       "img": "",
-      "price": 9431
+      "price": 9431,
+      "description": "Silenciador de escape que reduce el ruido del motor y las emisiones de gases, manteniendo un flujo de escape eficiente. Su construcción de acero y aislamiento acústico ofrece durabilidad. Verificar las bridas y soportes al instalar evita fugas y golpes.",
+      "modelo": "208 Feline"
     },
     {
       "id": 108,
@@ -1084,7 +1298,9 @@
         "van"
       ],
       "img": "",
-      "price": 11135
+      "price": 11135,
+      "description": "Bomba de refrigerante (agua) que mantiene la circulación constante del líquido por el motor y el radiador, evitando el sobrecalentamiento. Su impulsor de alta eficiencia y cojinete sellado garantizan durabilidad. Reemplazarla junto con la correa de distribución es lo recomendado.",
+      "modelo": "Corolla"
     },
     {
       "id": 109,
@@ -1094,7 +1310,9 @@
         "truck"
       ],
       "img": "",
-      "price": 2421
+      "price": 2421,
+      "description": "Tensor de correa que mantiene la tensión correcta de las correas de distribución y accesorios, evitando patinajes y ruidos. Su polea de alta calidad reduce el desgaste de las correas. Revisarlo al cambiar la correa garantiza el correcto funcionamiento del sistema.",
+      "modelo": "Duster Oroch"
     },
     {
       "id": 110,
@@ -1105,7 +1323,9 @@
         "van"
       ],
       "img": "",
-      "price": 16215
+      "price": 16215,
+      "description": "Buje de barra estabilizadora que elimina ruidos y holguras en la suspensión al tomar curvas, mejorando la estabilidad. Su goma de alta densidad resiste el desgaste y el clima. Reemplazarlo de a pares con los bujes de las barras asegura un comportamiento parejo.",
+      "modelo": "Cruze"
     },
     {
       "id": 111,
@@ -1116,7 +1336,9 @@
         "car"
       ],
       "img": "",
-      "price": 2282
+      "price": 2282,
+      "description": "Anillo de pistón de compresión que sella la cámara de combustión y evita el paso de gases al cárter, manteniendo la compresión y la potencia. Su material de alta resistencia soporta las altas temperaturas. Se recomienda instalarlos con la rectificación del motor.",
+      "modelo": "Hilux"
     },
     {
       "id": 112,
@@ -1127,7 +1349,9 @@
         "van"
       ],
       "img": "",
-      "price": 7915
+      "price": 7915,
+      "description": "Válvula de purga (canister) que controla los vapores de combustible del sistema de evaporación, reduciendo las emisiones. Su electroválvula de precisión regula el flujo correctamente. Un sensor o válvula con fallas puede encender la luz de inyección.",
+      "modelo": "Deliver 9"
     },
     {
       "id": 113,
@@ -1138,7 +1362,9 @@
         "car"
       ],
       "img": "",
-      "price": 14477
+      "price": 14477,
+      "description": "Rodamiento de rueda con doble hilera de bolas para aplicaciones de uso pesado, que garantiza un giro suave y silencioso. Su sellado integrado protege de la contaminación y mantiene la grasa lubricante. Verificar el par de apriete al instalarlo.",
+      "modelo": "F12000"
     },
     {
       "id": 114,
@@ -1148,7 +1374,9 @@
         "car"
       ],
       "img": "",
-      "price": 6265
+      "price": 6265,
+      "description": "Junta de culata metálica que sella el bloque y la culata, soportando las altas presiones y temperaturas de la combustión. Su diseño multicapa garantiza un sellado hermético y duradero. Se recomienda verificar el plano de la culata antes de la instalación.",
+      "modelo": "Ranger"
     },
     {
       "id": 115,
@@ -1157,7 +1385,9 @@
         "van"
       ],
       "img": "",
-      "price": 16529
+      "price": 16529,
+      "description": "Bomba de dirección hidráulica que brinda asistencia constante al volante, reduciendo el esfuerzo en maniobras y estacionamiento. Su cuerpo de alta presión y cojinete de calidad aseguran una respuesta inmediata. Verificar el nivel de líquido y la correa al instalarla.",
+      "modelo": "Amarok"
     },
     {
       "id": 116,
@@ -1168,7 +1398,9 @@
         "car"
       ],
       "img": "",
-      "price": 17199
+      "price": 17199,
+      "description": "Cremallera de dirección con retornos precisos y sin holgura que garantiza un control exacto del vehículo. Sus sellos y pistas templadas ofrecen una larga vida útil. Se recomienda alineación y revisión del líquido de dirección al instalarla.",
+      "modelo": "813"
     },
     {
       "id": 117,
@@ -1179,7 +1411,9 @@
         "car"
       ],
       "img": "",
-      "price": 18897
+      "price": 18897,
+      "description": "Válvula PCV que ventila los gases del cárter hacia la admisión, reduciendo la presión interna y las emisiones contaminantes. Su apertura precisa evita fugas de aceite y fallas de ralentí. Reemplazarla periódicamente mantiene el motor limpio.",
+      "modelo": "S10"
     },
     {
       "id": 118,
@@ -1189,7 +1423,9 @@
         "car"
       ],
       "img": "",
-      "price": 7582
+      "price": 7582,
+      "description": "Soporte de motor (cuna) que fija el bloque al chasis y reduce las vibraciones y el ruido del motor. Su goma de alta dureza absorbe las oscilaciones y prolonga la vida de las transmisiones. Reemplazarlo de a pares mantiene el motor alineado.",
+      "modelo": "1114"
     },
     {
       "id": 119,
@@ -1198,7 +1434,9 @@
         "van"
       ],
       "img": "",
-      "price": 5920
+      "price": 5920,
+      "description": "Termocontacto que detecta la temperatura del refrigerante y activa el electroventilador cuando es necesario, evitando el sobrecalentamiento. Su punto de conmutación de precisión asegura un funcionamiento correcto. Verificar el rango de temperatura según el vehículo al instalarlo.",
+      "modelo": "Saveiro"
     },
     {
       "id": 120,
@@ -1207,7 +1445,9 @@
         "truck"
       ],
       "img": "",
-      "price": 18006
+      "price": 18006,
+      "description": "Regulador de presión de combustible que mantiene la presión del riel de inyección constante, asegurando una mezcla correcta y estable. Su diafragma de precisión responde a las variaciones de carga. Un regulador con fallas provoca arranque difícil y consumo elevado.",
+      "modelo": "1725"
     },
     {
       "id": 121,
@@ -1216,7 +1456,9 @@
         "car"
       ],
       "img": "",
-      "price": 16369
+      "price": 16369,
+      "description": "Rótula de dirección con articulación esférica reforzada que permite el movimiento de la suspensión y la dirección con precisión. Su blindaje de alta resistencia soporta las cargas del tren delantero. Se recomienda revisarla ante ruidos o holguras en la dirección.",
+      "modelo": "Onix"
     },
     {
       "id": 122,
@@ -1225,7 +1467,9 @@
         "truck"
       ],
       "img": "",
-      "price": 13718
+      "price": 13718,
+      "description": "Bomba de inyección de alta presión para motores diésel que suministra el combustible exacto a cada inyector según la demanda del motor. Su construcción de precisión garantiza un funcionamiento confiable y de larga duración. Se recomienda verificarla ante pérdida de potencia o arranque difícil.",
+      "modelo": "710"
     },
     {
       "id": 123,
@@ -1236,7 +1480,9 @@
         "van"
       ],
       "img": "",
-      "price": 9878
+      "price": 9878,
+      "description": "Sensor de posición del árbol de levas que sincroniza la inyección y el encendido con la posición del motor, optimizando la potencia y las emisiones. Su lectura precisa evita fallas de arranque y ralentí inestable. Reemplazarlo restaura el funcionamiento normal del motor.",
+      "modelo": "Fiesta KD"
     },
     {
       "id": 124,
@@ -1245,7 +1491,9 @@
         "car"
       ],
       "img": "",
-      "price": 13329
+      "price": 13329,
+      "description": "Válvula IAC que regula el flujo de aire de ralentí y mantiene las revoluciones estables del motor, evitando apagones y fluctuaciones. Su motor paso a paso responde con precisión a la computadora. Se recomienda limpiarla o reemplazarla ante ralentí inestable.",
+      "modelo": "Versa"
     },
     {
       "id": 125,
@@ -1255,7 +1503,9 @@
         "truck"
       ],
       "img": "",
-      "price": 19724
+      "price": 19724,
+      "description": "Bomba de vacío del servofreno que potencia la asistencia del frenado, reduciendo el esfuerzo del pedal y mejorando la seguridad. Su construcción sellada mantiene el vacío constante. Verificar las mangueras y el anti-retorno al instalarla.",
+      "modelo": "Civic"
     },
     {
       "id": 126,
@@ -1265,7 +1515,9 @@
         "truck"
       ],
       "img": "",
-      "price": 1086
+      "price": 1086,
+      "description": "Junta del colector de admisión que sella la unión entre el colector y la culata, evitando entradas de aire falso que afectan la mezcla. Su material comprimible se adapta a las superficies. Reemplazarla elimina fallas de ralentí y consumo elevado.",
+      "modelo": "Strada"
     },
     {
       "id": 127,
@@ -1276,7 +1528,9 @@
         "car"
       ],
       "img": "",
-      "price": 8801
+      "price": 8801,
+      "description": "Sensor de temperatura del aire que mide la temperatura del aire aspirado y ajusta la mezcla de combustible para una combustión óptima. Su respuesta rápida mejora el arranque en frío y el consumo. Un sensor con fallas puede provocar ralentí inestable.",
+      "modelo": "Accelo 815"
     },
     {
       "id": 128,
@@ -1286,7 +1540,9 @@
         "truck"
       ],
       "img": "",
-      "price": 7334
+      "price": 7334,
+      "description": "Válvula solenoide de control para sistemas de emisión y turbo que regula el flujo de gases o vacío con precisión. Su bobina de alta duración responde con rapidez a las señales de la computadora. Verificar el cableado y la resistencia al instalarla.",
+      "modelo": "Sandero"
     },
     {
       "id": 129,
@@ -1297,7 +1553,9 @@
         "van"
       ],
       "img": "",
-      "price": 9865
+      "price": 9865,
+      "description": "Retén de eje que sella la salida de los ejes de transmisión y evita fugas de aceite, protegiendo el diferencial y la caja. Su labio de precisión resiste la fricción y las altas temperaturas. Reemplazarlo con el mantenimiento de la transmisión evita pérdidas de lubricante.",
+      "modelo": "K4000"
     },
     {
       "id": 130,
@@ -1306,7 +1564,9 @@
         "van"
       ],
       "img": "",
-      "price": 19548
+      "price": 19548,
+      "description": "Bomba de lavado que alimenta el circuito de limpiaparabrisas con la presión necesaria para limpiar el parabrisas. Su motor de alta duración y su instalación compacta garantizan un funcionamiento silencioso. Verificar las mangueras y la conexión eléctrica al instalarla.",
+      "modelo": "Montana"
     },
     {
       "id": 131,
@@ -1317,7 +1577,9 @@
         "car"
       ],
       "img": "",
-      "price": 16394
+      "price": 16394,
+      "description": "Sensor de posición del acelerador (TPS) que informa a la computadora la apertura de la mariposa para ajustar la inyección y el encendido. Su señal precisa mejora la respuesta del acelerador y el consumo. Reemplazarlo ante fallas de aceleración o ralentí.",
+      "modelo": "Duster Oroch"
     },
     {
       "id": 132,
@@ -1326,7 +1588,9 @@
         "van"
       ],
       "img": "",
-      "price": 11997
+      "price": 11997,
+      "description": "Válvula de control de aire que regula el paso de aire al motor según la demanda, manteniendo el ralentí y la respuesta correcta. Su accionamiento de precisión responde a la computadora. Se recomienda limpiarla o reemplazarla ante revoluciones inestables.",
+      "modelo": "Hilux"
     },
     {
       "id": 133,
@@ -1337,7 +1601,9 @@
         "truck"
       ],
       "img": "",
-      "price": 19804
+      "price": 19804,
+      "description": "Módulo de control de tracción que gestiona la potencia de las ruedas para mejorar la estabilidad y el agarre en condiciones de baja adherencia. Su electrónica de alta velocidad corrige el deslizamiento en tiempo real. Verificar la compatibilidad con el sistema del vehículo.",
+      "modelo": "Ranger"
     },
     {
       "id": 134,
@@ -1346,7 +1612,9 @@
         "van"
       ],
       "img": "",
-      "price": 2705
+      "price": 2705,
+      "description": "Terminal de batería de alta conductividad con fijación segura que garantiza una conexión firme y sin caídas de tensión. Su material resistente a la corrosión prolonga la vida de la conexión. Se recomienda limpiar los bornes y aplicar grasa dieléctrica al instalar.",
+      "modelo": "Amarok"
     },
     {
       "id": 135,
@@ -1355,7 +1623,9 @@
         "truck"
       ],
       "img": "",
-      "price": 4321
+      "price": 4321,
+      "description": "Sensor de nivel de combustible que indica la cantidad de combustible del tanque en el tablero con precisión. Su flotador y resistencia de alta calidad resisten el contacto con el combustible. Verificar el cableado y el aislador al instalarlo.",
+      "modelo": "Deliver 9"
     },
     {
       "id": 136,
@@ -1366,7 +1636,9 @@
         "car"
       ],
       "img": "",
-      "price": 5243
+      "price": 5243,
+      "description": "Buje de suspensión de goma-metal que aísla las vibraciones de la carretera y mantiene la geometría del tren delantero. Su compuesto de alta densidad resiste el desgaste y la deformación. Se recomienda reemplazarlo de a pares y realizar la alineación posterior.",
+      "modelo": "S10"
     },
     {
       "id": 137,
@@ -1375,7 +1647,9 @@
         "car"
       ],
       "img": "",
-      "price": 17542
+      "price": 17542,
+      "description": "Válvula de descarga (wastegate) que controla la presión del turbo para protegerlo y mantener la potencia óptima. Su accionamiento de precisión regula el flujo de gases según la demanda. Verificar la varilla y el solenoide de control al instalarla.",
+      "modelo": "Focus III"
     },
     {
       "id": 138,
@@ -1386,7 +1660,9 @@
         "car"
       ],
       "img": "",
-      "price": 9541
+      "price": 9541,
+      "description": "Sensor de fase (CKP/CMP) que sincroniza el encendido y la inyección con la posición del cigüeñal o árbol de levas. Su lectura precisa evita fallas de arranque y pérdida de potencia. Reemplazarlo restaura el funcionamiento normal del motor.",
+      "modelo": "Saveiro"
     },
     {
       "id": 139,
@@ -1396,7 +1672,9 @@
         "truck"
       ],
       "img": "",
-      "price": 19083
+      "price": 19083,
+      "description": "Cuerpo de mariposa que regula el ingreso de aire al motor y mantiene la proporción correcta de la mezcla. Su electrónica integrada controla el ralentí y la aceleración. Se recomienda limpiarlo periódicamente para evitar depósitos y fallas de respuesta.",
+      "modelo": "Cronos"
     },
     {
       "id": 140,
@@ -1405,7 +1683,9 @@
         "van"
       ],
       "img": "",
-      "price": 19677
+      "price": 19677,
+      "description": "Bomba de aceite que mantiene la lubricación del motor bajo presión, protegiendo bielas, bancadas y cigüeñal del desgaste. Su diseño de engranajes o rótulas garantiza un flujo constante. Se recomienda verificar la presión al instalarla.",
+      "modelo": "Strada"
     },
     {
       "id": 141,
@@ -1414,7 +1694,9 @@
         "van"
       ],
       "img": "",
-      "price": 14819
+      "price": 14819,
+      "description": "Regulador de voltaje que mantiene estable la tensión de carga del sistema eléctrico, protegiendo la batería y los componentes electrónicos. Su electrónica de precisión evita sobrecargas y caídas de tensión. Reemplazarlo ante luces inestables o batería descargada.",
+      "modelo": "Montana"
     },
     {
       "id": 142,
@@ -1425,7 +1707,9 @@
         "truck"
       ],
       "img": "",
-      "price": 16675
+      "price": 16675,
+      "description": "Sensor de posición del pedal que informa al sistema de gestión la demanda de aceleración o frenado para ajustar la respuesta del vehículo. Su lectura precisa mejora la seguridad y la eficiencia. Verificar el cableado y el ajuste al instalarlo.",
+      "modelo": "Gol Trend"
     },
     {
       "id": 143,
@@ -1434,7 +1718,9 @@
         "truck"
       ],
       "img": "",
-      "price": 8666
+      "price": 8666,
+      "description": "Válvula de retención que impide el retroceso de fluidos en el circuito, manteniendo la presión y evitando daños en el sistema. Su sellado de precisión opera de forma silenciosa. Verificar el sentido de instalación para un correcto funcionamiento.",
+      "modelo": "F12000"
     },
     {
       "id": 144,
@@ -1444,7 +1730,9 @@
         "car"
       ],
       "img": "",
-      "price": 8501
+      "price": 8501,
+      "description": "Junta de turbo resistente a altas temperaturas y presión que sella la unión del turbo con el múltiple de escape y el intercooler. Su material grafítico o metálico soporta el calor extremo. Reemplazarla elimina fugas de gases y pérdida de potencia.",
+      "modelo": "813"
     },
     {
       "id": 145,
@@ -1453,7 +1741,9 @@
         "car"
       ],
       "img": "",
-      "price": 1805
+      "price": 1805,
+      "description": "Buje de barra de torsión que asegura el tren trasero y mantiene la geometría de la suspensión, reduciendo ruidos y desgastes. Su goma reforzada absorbe las vibraciones del camino. Se recomienda reemplazarlo de a pares para un comportamiento equilibrado.",
+      "modelo": "Corsa Classic"
     },
     {
       "id": 146,
@@ -1463,7 +1753,9 @@
         "van"
       ],
       "img": "",
-      "price": 18056
+      "price": 18056,
+      "description": "Sensor de NOx que mide los óxidos de nitrógeno en los gases de escape y permite el control de los sistemas de reducción de emisiones. Su lectura precisa optimiza el funcionamiento del motor y el tratamiento de gases. Reemplazarlo ante luces de advertencia del motor.",
+      "modelo": "1114"
     },
     {
       "id": 147,
@@ -1474,7 +1766,9 @@
         "van"
       ],
       "img": "",
-      "price": 12779
+      "price": 12779,
+      "description": "Válvula de expansión del aire acondicionado que regula el flujo de refrigerante hacia el evaporador, controlando la temperatura del habitáculo. Su precisión de ajuste asegura un enfriamiento eficiente. Verificar la carga de gas y las presiones al instalarla.",
+      "modelo": "208 Feline"
     },
     {
       "id": 148,
@@ -1483,7 +1777,9 @@
         "van"
       ],
       "img": "",
-      "price": 15057
+      "price": 15057,
+      "description": "Bomba de lavado de alta presión para faros o parabrisas que limpia con eficacia en condiciones de suciedad o polvo. Su motor de alta duración garantiza un flujo constante. Verificar la conexión eléctrica y las mangueras al instalarla.",
+      "modelo": "Duster Oroch"
     },
     {
       "id": 149,
@@ -1494,7 +1790,9 @@
         "van"
       ],
       "img": "",
-      "price": 5588
+      "price": 5588,
+      "description": "Sensor de par motor que asiste a la dirección electrónica y a la gestión del motor, midiendo la fuerza aplicada al volante. Su lectura precisa mejora la sensación de manejo y la seguridad. Reemplazarlo ante fallas en la asistencia de dirección.",
+      "modelo": "Corolla"
     },
     {
       "id": 150,
@@ -1503,7 +1801,9 @@
         "van"
       ],
       "img": "",
-      "price": 7684
+      "price": 7684,
+      "description": "Válvula de derivación (bypass) que regula el flujo de refrigerante en el circuito para mantener la temperatura óptima del motor. Su accionamiento de precisión evita sobrecalentamientos. Verificar el termostato y el estado de la válvula al instalarla.",
+      "modelo": "Hilux"
     },
     {
       "id": 151,
@@ -1512,7 +1812,9 @@
         "truck"
       ],
       "img": "",
-      "price": 4620
+      "price": 4620,
+      "description": "Sensor de masa de aire (MAF) que mide el aire que ingresa al motor y permite calcular la cantidad exacta de combustible. Su respuesta precisa mejora la potencia, el consumo y las emisiones. Se recomienda limpiarlo o reemplazarlo ante fallas de mezcla.",
+      "modelo": "1725"
     },
     {
       "id": 152,
@@ -1522,7 +1824,9 @@
         "truck"
       ],
       "img": "",
-      "price": 6110
+      "price": 6110,
+      "description": "Junta de tapa de válvulas que sella la tapa y evita pérdidas de aceite, manteniendo el motor limpio y silencioso. Su material flexible se adapta a las superficies de la culata. Reemplazarla junto con el cambio de tapa asegura un sellado hermético.",
+      "modelo": "Cruze"
     },
     {
       "id": 153,
@@ -1533,7 +1837,9 @@
         "truck"
       ],
       "img": "",
-      "price": 10673
+      "price": 10673,
+      "description": "Terminal de eje con rosca y articulación de alta resistencia que une la dirección con la mangueta y soporta las cargas del tren delantero. Su blindaje de precisión garantiza un control exacto. Se recomienda alineación y torque correcto al instalarlo.",
+      "modelo": "Ranger"
     },
     {
       "id": 154,
@@ -1544,7 +1850,9 @@
         "van"
       ],
       "img": "",
-      "price": 16974
+      "price": 16974,
+      "description": "Válvula de admisión que permite el ingreso de la mezcla aire-combustible al cilindro con un cierre hermético. Su asiento templado resiste las altas temperaturas de la combustión. Se recomienda verificarlas durante la reparación general del motor.",
+      "modelo": "710"
     },
     {
       "id": 155,
@@ -1554,7 +1862,9 @@
         "van"
       ],
       "img": "",
-      "price": 19843
+      "price": 19843,
+      "description": "Sensor de presión de aceite que alerta al conductor ante una baja lubricación, protegiendo el motor de daños graves. Su lectura precisa activa la luz de advertencia en el tablero. Verificar el estado del circuito y el sello al instalarlo.",
+      "modelo": "Onix"
     },
     {
       "id": 156,
@@ -1565,7 +1875,9 @@
         "car"
       ],
       "img": "",
-      "price": 11404
+      "price": 11404,
+      "description": "Bomba de transferencia de combustible de baja presión que suministra el diésel o nafta desde el tanque al sistema de alta presión. Su construcción robusta soporta el uso continuo. Verificar las conexiones y el filtro al instalarla.",
+      "modelo": "Amarok"
     },
     {
       "id": 157,
@@ -1575,7 +1887,9 @@
         "van"
       ],
       "img": "",
-      "price": 13475
+      "price": 13475,
+      "description": "Válvula de recirculación que controla el flujo de gases del turbo, mejorando la respuesta del acelerador y reduciendo las emisiones. Su accionamiento de precisión evita el golpe de compresor. Verificar el cableado y las mangueras al instalarla.",
+      "modelo": "Accelo 815"
     },
     {
       "id": 158,
@@ -1586,18 +1900,22 @@
         "truck"
       ],
       "img": "",
-      "price": 4327
+      "price": 4327,
+      "description": "Sensor de posición de la palanca de cambios que informa a la gestión electrónica la marcha seleccionada para ajustar el motor y la transmisión. Su lectura precisa mejora la eficiencia y la seguridad. Reemplazarlo ante errores de marcha en el tablero.",
+      "modelo": "S10"
     },
     {
       "id": 159,
       "title": "Junta de inyector",
       "car": [
-        "van",        
+        "van",
         "car",
         "truck"
       ],
       "img": "",
-      "price": 12345
+      "price": 12345,
+      "description": "Junta de inyector que sella el circuito de alta presión de la inyección y evita fugas de combustible. Su material resistente soporta las altas presiones y temperaturas. Reemplazarla ante olores a combustible o pérdida de presión.",
+      "modelo": "Saveiro"
     },
     {
       "id": 160,
@@ -1607,7 +1925,9 @@
         "van"
       ],
       "img": "",
-      "price": 12345
+      "price": 12345,
+      "description": "Bomba de aire secundario que inyecta aire al escape durante el arranque en frío, reduciendo las emisiones contaminantes. Su motor eléctrico de alta duración opera de forma silenciosa. Verificar el relé y las mangueras al instalarla.",
+      "modelo": "K4000"
     },
     {
       "id": 161,
@@ -1618,7 +1938,9 @@
         "truck"
       ],
       "img": "",
-      "price": 12345
+      "price": 12345,
+      "description": "Válvula de escape que expulsa los gases de la combustión con un cierre hermético, manteniendo la compresión del motor. Su asiento templado y el vástago resistente soportan el calor extremo. Se recomienda verificarla en la reparación general del motor.",
+      "modelo": "Strada"
     }
   ]
 }

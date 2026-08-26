@@ -117,6 +117,10 @@
   z-index: 3333;
   display: block;
 }
+.modal-title{
+  display: block;
+  margin-top: 4em;
+}
 .card-footer > .button-card{
  background-color: var(--primary-color);
   color: var(--white-color);
@@ -124,7 +128,7 @@
   position: absolute;
   bottom: 0;
   right:  0;
-  left: 250;
+  left: auto;
   cursor: pointer;
   z-index: 3;
   display: flex;
@@ -157,5 +161,139 @@
   width: 100px;
   height: 100px;
   z-index: 6;
+}
+
+.modal-container:has(.modal-services) {
+  width: 65%;
+  height: 72%;
+}
+
+.modal-services .section-parts-container {
+  background-color: var(--section-color);
+}
+
+.modal-services .modal-details-content {
+  padding: 0 20px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 1.5em;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 4em;
+}
+
+.modal-services .modal-title {
+  position: static;
+  margin: 0;
+  width: fit-content;
+  background-color: var(--secondary-color);
+  color: var(--primary-color) !important;
+  padding: 0.35em 2.5em;
+  clip-path: polygon(8% 0, 100% 0, 92% 100%, 0% 100%);
+  letter-spacing: 2px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.modal-intro {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.75);
+  color: var(--text-color);
+  font-size: 1.02em;
+  line-height: 1.65;
+  text-align: justify;
+  padding: 1.1em 1.4em;
+  border-left: 6px solid var(--primary-color);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%);
+}
+
+.modal-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.modal-feature-item {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  padding: 0.65em 1.1em;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: var(--text-color);
+  font-size: 0.98em;
+  line-height: 1.45;
+  clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+  cursor: pointer;
+  opacity: 0;
+  animation: modalFeatureIn 0.5s ease forwards;
+}
+
+.modal-feature-item::before {
+  content: "▸";
+  color: var(--primary-color);
+  font-weight: 900;
+  font-size: 1.15em;
+  transition: transform 0.3s ease-in-out;
+}
+
+.modal-feature-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6px;
+  height: 100%;
+  background-color: var(--primary-color);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.3s ease-in-out;
+}
+
+.modal-feature-item:hover {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  transform: translateX(8px);
+}
+
+.modal-feature-item:hover::before {
+  transform: translateX(4px);
+  color: var(--primary-color);
+}
+
+.modal-feature-item:hover::after {
+  transform: scaleY(1);
+}
+
+@keyframes modalFeatureIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .card-content{
+    width: 100%;
+    height: 100%;
+    padding-left: 0.6em;
+  }
+
+  .card-content > h1{
+    margin-top: 4.5em;
+    max-width: 90%;
+  }
 }
 

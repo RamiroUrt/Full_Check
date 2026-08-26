@@ -63,12 +63,12 @@ AOS.init({
                     </div>
                 </div>
             </div>
+            <div className="box-contain-hero">
+                <AngleBox 
+                color={ColorAngle}
+                image={CarAngle}/>
+            </div>
         </section>
-    <div className="box-contain-hero">
-        <AngleBox 
-        color={ColorAngle}
-        image={CarAngle}/>
-    </div>
     </>
   )
 }

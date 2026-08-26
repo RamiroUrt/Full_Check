@@ -1,31 +1,33 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-      experimental: {
-      viewTransition: true,
-    },
+  experimental: {
+    viewTransition: true,
+  },
   images: {
-    domains: [
-      'localhost', '127.0.0.1','3001', '3002',
-      "cdn.pixabay.com",
-      "vw.grupodietrich.com",
-      "nipponcar.com.ar",
-      "centralpeugeot.dexst.com.ar",
-      "encrypted-tbn0.gstatic.com",
-      "i0.wp.com",
-      "production.autoforce.com",
-      "di-uploads-pod11.dealerinspire.com",
-      "cronos.fiat.com.ar",
-      "www.webmotors.com.br",
-      "www.plandeahorronissanautoferro.com",
-      "centraljeep.divit.com.ar",
-      "island297rental.com",
-      "pngimg.com",
-      "www.carone.com.ar",
-      "www.bmw.in",
-      "www.carone.com.ar",
-      "www.toyotawarnes.com.ar",
-      "www.moserline.com.ar"
+    remotePatterns: [
+      { protocol: "http", hostname: "localhost" },
+      { protocol: "https", hostname: "localhost" },
+      { protocol: "http", hostname: "127.0.0.1" },
+      { protocol: "https", hostname: "127.0.0.1" },
+      { protocol: "https", hostname: "cdn.pixabay.com" },
+      { protocol: "https", hostname: "vw.grupodietrich.com" },
+      { protocol: "https", hostname: "nipponcar.com.ar" },
+      { protocol: "https", hostname: "centralpeugeot.dexst.com.ar" },
+      { protocol: "https", hostname: "encrypted-tbn0.gstatic.com" },
+      { protocol: "https", hostname: "i0.wp.com" },
+      { protocol: "https", hostname: "production.autoforce.com" },
+      { protocol: "https", hostname: "di-uploads-pod11.dealerinspire.com" },
+      { protocol: "https", hostname: "cronos.fiat.com.ar" },
+      { protocol: "https", hostname: "www.webmotors.com.br" },
+      { protocol: "https", hostname: "www.plandeahorronissanautoferro.com" },
+      { protocol: "https", hostname: "centraljeep.divit.com.ar" },
+      { protocol: "https", hostname: "island297rental.com" },
+      { protocol: "https", hostname: "pngimg.com" },
+      { protocol: "https", hostname: "www.carone.com.ar" },
+      { protocol: "https", hostname: "www.bmw.in" },
+      { protocol: "https", hostname: "www.toyotawarnes.com.ar" },
+      { protocol: "https", hostname: "www.moserline.com.ar" },
     ],
   },
 };

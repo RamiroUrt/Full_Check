@@ -8,7 +8,7 @@ import Modal from "../Modal/Modal";
 import "../Modal/Modal.css";
 import { useModalOrigin } from "../../../global/hooks/useModalOrigin";
 
-const CardServices: React.FC<CardServices> = ({ title, image, description }) => {
+const CardServices: React.FC<CardServices> = ({ title, image, description, details }) => {
   const { isOpen, origin, openModalFrom, closeModal } = useModalOrigin();
 
   return (
@@ -34,7 +34,7 @@ const CardServices: React.FC<CardServices> = ({ title, image, description }) => 
       </main>
 
       <Modal isOpen={isOpen} origin={origin} onClose={closeModal}>
-        <div className="modal">
+        <div className="modal modal-services">
           <div className="container-left">
             <div className="modal-img-container-left">
               <Image src={image} alt={title} className="modal-img" />
@@ -43,7 +43,20 @@ const CardServices: React.FC<CardServices> = ({ title, image, description }) => 
           <div className="container-right">
             <section className="section-parts-container dot-group-parts">
               <h2 className="title modal-title">{title}</h2>
-              <p>{description}</p>
+              <div className="modal-details-content">
+                <p className="modal-intro">{details.intro}</p>
+                <ul className="modal-features-list">
+                  {details.features.map((feature, index) => (
+                    <li
+                      key={index}
+                      className="modal-feature-item"
+                      style={{ animationDelay: `${index * 0.08}s` }}
+                    >
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </section>
           </div>
         </div>

@@ -2,12 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 6px;
+  row-gap: 10px;
   color: var(--white-color);
   list-style: none;
   font-weight: bold;
   width: 100%;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 12px;
   margin-bottom: 2em;
 }
 
@@ -27,8 +31,11 @@
     transition: all 0.2s ease-in-out;
  }
  .pagination a{
-    width: 200px;
-    max-width: 200px;
+    display: inline-block;
+    min-width: 44px;
+    padding: 6px 12px;
+    text-align: center;
+    white-space: nowrap;
  }
 .pagination .active {
   color: var(--primary-color);

@@ -6,6 +6,13 @@
   z-index: 1000;
 }
 
+@media (max-width: 600px) {
+  .chat {
+    bottom: 14px;
+    right: 14px;
+  }
+}
+
 .background {
   background-color: var(--primary-color);
   /* border-radius: 50%; */
@@ -92,8 +99,9 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 400px;
-  height: 430px;
+  width: min(400px, calc(100vw - 24px));
+  max-width: calc(100vw - 24px);
+  height: min(430px, 72vh);
   background-color: var(--border-color);
   /* border-radius: 12px; */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -130,6 +138,7 @@
   border-radius: 6px;
   font-size: 14px;
   font-family: var(--font-oswald);
+  white-space: pre-line;
 }
 
 .chat-placeholder {
@@ -253,6 +262,12 @@
   border-right: 10px solid #e3e3e3; 
 }
 
+/* La burbuja de "escribiendo..." centra su flecha hacia el avatar */
+.chat-row.bot .chat-message.typing-indicator::before {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 
 @keyframes chatMessageFade {
   from {
@@ -303,6 +318,41 @@
   font-style: italic;
 }
 
+/* Indicador de "escribiendo..." */
+.typing-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 52px;
+}
+
+.typing-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #666;
+  animation: typingBounce 1.2s infinite ease-in-out;
+}
+
+.typing-dot:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.typing-dot:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes typingBounce {
+  0%, 60%, 100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  30% {
+    transform: translateY(-6px);
+    opacity: 1;
+  }
+}
+
 .chat-send-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
@@ -330,4 +380,29 @@
 
 .chat-row.bot .chat-message a:hover {
   color: #0d47a1;
+}
+
+/* Grilla de contacto */
+.chat-contact-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 12px;
+  margin-top: 6px;
+  padding: 8px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.chat-contact-item {
+  display: contents;
+}
+
+.chat-contact-label {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.chat-contact-value {
+  word-break: break-all;
 }

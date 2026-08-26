@@ -17,7 +17,7 @@ export const metadata = pagesMetadata.home;
 
 const page = () => {
   return <>
-      <main className="relative w-full h-auto z-[--100]">
+      <main className="relative w-full h-auto z-[--100] overflow-hidden">
         <Navbar />
         <Hero
           CoverHero={heroHomeProps.CoverHero}

@@ -248,22 +248,22 @@ function handleServicesMenuSelection(lowerMessage: string, context: Conversation
 function handleSpecificService(lowerMessage: string, context: ConversationContext): ChatResponse {
   // Mapeo de servicios con sus URLs específicas
   const serviceUrls: { [key: string]: string } = {
-    '1': 'https://www.tutaller.com/servicios/alineacion-balanceo',
-    '2': 'https://www.tutaller.com/servicios/cambio-neumaticos',
-    '3': 'https://www.tutaller.com/servicios/diagnostico-electronico',
-    '4': 'https://www.tutaller.com/servicios/mantenimiento-preventivo',
-    '5': 'https://www.tutaller.com/servicios/reparacion-frenos',
-    '6': 'https://www.tutaller.com/servicios/reparacion-motor',
-    '7': 'https://www.tutaller.com/servicios/reparacion-transmision',
-    '8': 'https://www.tutaller.com/servicios/aire-acondicionado',
-    '9': 'https://www.tutaller.com/servicios/sistema-escape',
-    '10': 'https://www.tutaller.com/servicios/servicio-baterias',
-    '11': 'https://www.tutaller.com/servicios/correa-distribucion'
+    '1': 'https://www.fullcheck.com/servicios/alineacion-balanceo',
+    '2': 'https://www.fullcheck.com/servicios/cambio-neumaticos',
+    '3': 'https://www.fullcheck.com/servicios/diagnostico-electronico',
+    '4': 'https://www.fullcheck.com/servicios/mantenimiento-preventivo',
+    '5': 'https://www.fullcheck.com/servicios/reparacion-frenos',
+    '6': 'https://www.fullcheck.com/servicios/reparacion-motor',
+    '7': 'https://www.fullcheck.com/servicios/reparacion-transmision',
+    '8': 'https://www.fullcheck.com/servicios/aire-acondicionado',
+    '9': 'https://www.fullcheck.com/servicios/sistema-escape',
+    '10': 'https://www.fullcheck.com/servicios/servicio-baterias',
+    '11': 'https://www.fullcheck.com/servicios/correa-distribucion'
   };
 
   // Determinar qué servicio se seleccionó anteriormente
   const lastSelection = context.userSelections[context.userSelections.length - 1];
-  const serviceUrl = serviceUrls[lastSelection] || 'https://www.tutaller.com/servicios';
+  const serviceUrl = serviceUrls[lastSelection] || 'https://www.fullcheck.com/servicios';
 
   if (lowerMessage === '1') {
     return {
@@ -280,15 +280,15 @@ function handleSpecificService(lowerMessage: string, context: ConversationContex
       metadata: {
         url: serviceUrl,
         phone: '+5491122334455',
-        email: 'info@tutaller.com',
-        appointmentUrl: 'https://www.tutaller.com/agendar-cita'
+        email: 'info@fullcheck.com',
+        appointmentUrl: 'https://www.fullcheck.com/agendar-cita'
       }
     };
   }
 
   if (lowerMessage === '1.1' || lowerMessage === 'agendar' || lowerMessage === 'cita') {
     return {
-      message: `📅 **Agendar Cita/Turno**<br/><br/>Para reservar tu turno, puedes:<br/><br/>1. **Agendar online:** https://www.tutaller.com/agendar-cita<br/>2. **Llamarnos:** +5491122334455<br/>3. **WhatsApp:** https://wa.me/5491122334455<br/><br/>¿Prefieres agendar ahora o necesitas más información?`,
+      message: `📅 **Agendar Cita/Turno**<br/><br/>Para reservar tu turno, puedes:<br/><br/>1. **Agendar online:** https://www.fullcheck.com/agendar-cita<br/>2. **Llamarnos:** +5491122334455<br/>3. **WhatsApp:** https://wa.me/5491122334455<br/><br/>¿Prefieres agendar ahora o necesitas más información?`,
       options: [
         "1. ✅ Agendar turno online",
         "2. 📋 Ver horarios disponibles",
@@ -297,7 +297,7 @@ function handleSpecificService(lowerMessage: string, context: ConversationContex
         "5. 🏠 Menú principal"
       ],
       metadata: {
-        appointmentUrl: 'https://www.tutaller.com/agendar-cita',
+        appointmentUrl: 'https://www.fullcheck.com/agendar-cita',
         phone: '+5491122334455',
         whatsapp: 'https://wa.me/5491122334455'
       }
@@ -306,7 +306,7 @@ function handleSpecificService(lowerMessage: string, context: ConversationContex
 
   if (lowerMessage === '2' || lowerMessage.includes('contacto') || lowerMessage.includes('teléfono')) {
     return {
-      message: `📞 **Contacto Telefónico**<br/><br/>Puedes contactarnos en:<br/><br/>• **Teléfono:** +5491122334455<br/>• **Horarios:** Lunes a Viernes 8:00-20:00<br/>• **WhatsApp:** https://wa.me/5491122334455<br/><br/>¿Necesitas que te llamemos?`,
+      message: `📞 **Contacto Telefónico**<br/><br/>Puedes contactarnos en:<br/><br/>• **Teléfono:** +5491122334455<br/>• **Horarios:** Lunes a Viernes 8:00-20:00 · Sábados 9:00-13:00<br/>• **WhatsApp:** https://wa.me/5491122334455<br/><br/>¿Necesitas que te llamemos?`,
       options: [
         "1. 📲 Llamar ahora",
         "2. 💬 Contactar por WhatsApp",
@@ -323,7 +323,7 @@ function handleSpecificService(lowerMessage: string, context: ConversationContex
 
   if (lowerMessage === '3' || lowerMessage.includes('email') || lowerMessage.includes('correo')) {
     return {
-      message: `📧 **Contacto por Email**<br/><br/>Puedes escribirnos a:<br/><br/>• **Email general:** info@tutaller.com<br/>• **Soporte técnico:** soporte@tutaller.com<br/>• **Consultas comerciales:** ventas@tutaller.com<br/><br/>¿Sobre qué tema te gustaría escribirnos?`,
+      message: `📧 **Contacto por Email**<br/><br/>Puedes escribirnos a:<br/><br/>• **Email general:** info@fullcheck.com<br/>• **Soporte técnico:** soporte@fullcheck.com<br/>• **Consultas comerciales:** ventas@fullcheck.com<br/><br/>¿Sobre qué tema te gustaría escribirnos?`,
       options: [
         "1. 📝 Enviar consulta general",
         "2. 🔧 Consulta técnica específica",
@@ -332,9 +332,9 @@ function handleSpecificService(lowerMessage: string, context: ConversationContex
         "5. 🏠 Menú principal"
       ],
       metadata: {
-        emailGeneral: "info@tutaller.com",
-        emailSupport: 'soporte@tutaller.com',
-        emailSales: 'ventas@tutaller.com'
+        emailGeneral: "info@fullcheck.com",
+        emailSupport: 'soporte@fullcheck.com',
+        emailSales: 'ventas@fullcheck.com'
       }
     };
   }

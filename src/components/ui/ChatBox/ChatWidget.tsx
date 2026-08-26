@@ -11,6 +11,7 @@ export default function ChatWidgetWrapper() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
   const chatBodyRef = useRef<HTMLDivElement>(null);
 
   const toggleOpen = () => {
@@ -47,6 +48,7 @@ export default function ChatWidgetWrapper() {
 
     setMessages(prev => [...prev, userMessage]);
     setInput("");
+    setIsLoading(true);
 
     try {
       const response = await fetch("/api/chat", {
@@ -96,6 +98,7 @@ export default function ChatWidgetWrapper() {
 
               if (parsed.type === 'text-delta') {
                 assistantContent += parsed.textDelta;
+                setIsLoading(false);
                 
                 setMessages(prev =>
                   prev.map(msg =>
@@ -110,7 +113,10 @@ export default function ChatWidgetWrapper() {
         }
       }
 
+      setIsLoading(false);
+
     } catch (error) {
+      setIsLoading(false);
       setMessages(prev => [
         ...prev,
         {
@@ -130,6 +136,7 @@ export default function ChatWidgetWrapper() {
         <ChatBox
           messages={messages}
           input={input}
+          isLoading={isLoading}
           chatBodyRef={chatBodyRef}
           handleInputChange={e => setInput(e.target.value)}
           handleSubmit={handleSubmit}
